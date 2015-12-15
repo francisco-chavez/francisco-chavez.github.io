@@ -13,6 +13,8 @@
 </head>
 <body>
 	<div class="container">
+
+		<!-- Header -->
 		<div class="panel-group" id="heading">
 			<div class="row">
 				<div class="col-md-4">Francisco Chavez-Tejeda</div>
@@ -20,6 +22,7 @@
 				<div class="col-md-4">francisco.chavez.509@outlook.com</div>
 			</div>
 		</div>
+		<!-- End Header -->
 
 		<!-- Collapseable sections. -->
 		<div class="panel-group" id="accordion01">
@@ -117,13 +120,76 @@
 					<h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion01" href="#collapseThree">Job History:</a></h4>
 				</div>
 				<!-- Panel Content -->
-				<div id="collapseThree" class="panel-collapse collapse">
+				<div id="collapseThree" class="panel-collapse collapse in">
 					<div class="panel-body">
-						<ul>
-							<li>PNNL</li>
-							<li>PNNL</li>
-							<li>WSU</li>
-						</ul>
+
+						<!-- Employment Collapsible Panels -->
+						<div class="panel-group" id="accordionEmp">
+							<!-- Jop 01 Panel -->
+							<div class="panel panel-default">
+								<!-- Job 01 Header -->
+								<div class="panel-heading">
+									<div class="panel-title">
+										<div class="row">
+											<div class="col-md-4"><h5><a data-toggle="collapse" data-parent="#accordionEmp" href="#collapseJob01">RA</a></h5></div>
+											<div class="col-md-4"></div>
+											<div class="col-md-4"><h5><a data-toggle="collapse" data-parent="#accordionEmp" href="#collapseJob01">PNNL</a></h5></div>
+										</div>
+									</div>
+								</div>
+								<!-- Job 01 Content -->
+								<div id="collapseJob01" class="panel-collapse collapse">
+									<div class="panel-body">
+										Details.
+									</div>
+								</div>
+							</div>
+							<!-- End Job 01 Panel -->
+
+							<!-- Job 02 Panel -->
+							<div class="panel panel-default">
+								<!-- Job 02 Header -->
+								<div class="panel-heading">
+									<div class="panel-title">
+										<div class="row">
+											<div class="col-md-4"><h5><a data-toggle="collapse" data-parent="#accordionEmp" href="#collapseJob02">Student Worker</a></h5></div>
+											<div class="col-md-4"></div>
+											<div class="col-md-4"><h5><a data-toggle="collapse" data-parent="#accordionEmp" href="#collapseJob02">PNNL</a></h5></div>
+										</div>
+									</div>
+								</div>
+								<!-- Job 02 Content -->
+								<div id="collapseJob02" class="panel-collapse collapse">
+									<div class="panel-body">
+										Details.
+									</div>
+								</div>
+							</div>
+							<!-- End Job 02 Panel -->
+
+							<!-- Job 03 Panel -->
+							<div class="panel panel-default">
+								<!-- Job 03 Header -->
+								<div class="panel-heading">
+									<div class="panel-title">
+										<div class="row">
+											<div class="col-md-4"><h5><a data-toggle="collapse" data-parent="#accordionEmp" href="#collapseJob03">Student Worker</a></h5></div>
+											<div class="col-md-4"></div>
+											<div class="col-md-4"><h5><a data-toggle="collapse" data-parent="#accordionEmp" href="#collapseJob03">WSU</a></h5></div>
+										</div>
+									</div>
+								</div>
+								<!-- Job 03 Content -->
+								<div id="collapseJob03" class="panel-collapse collapse">
+									<div class="panel-body">
+										Details.
+									</div>
+								</div>
+							</div>
+							<!-- End Job 03 Panel -->
+						</div>
+						<!-- End Employment Colapsible Panels -->
+
 					</div>
 				</div>
 			</div>
