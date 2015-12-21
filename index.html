@@ -166,7 +166,70 @@
 										</div>
 										</div>
 
-										Job 01 Details.
+										<div>
+											<p>
+											The Instrument Development Lab (IDL) is focused on creating instruments for 
+											their clients, most of which are intended for scientific use. During this 
+											time, I worked on various projects, for various clients. A large part of the 
+											work I did was based on WPF/C#, but I also worked with other technologies: 
+											Windows Forms, SQL, ASP.NET, HTML, jQuery, JavaScript, some networking code, 
+											etc. Here's a sampling of some of the work I did:
+											</p>
+										</div>
+
+										<div>
+											<ul>
+												<li>
+													Called in to help cleanup a WPF based program named Ladder
+													<ul>
+														<li>
+															Cleaned up the look of the User Interface (UI), making it presentable to project investors
+															<ul>
+																<li>Switched from colors defined within each component, over to colors defined within Style objects. This allowed quick changes to be made to look and feel of the entire application from a single location</li>
+															</ul>
+														</li>
+														<li>
+															Decoupled data-processing code from UI components
+														</li>
+														<li>
+															General bug-hunting
+														</li>
+													</ul>
+												</li>
+												<li>
+													Expanded the Cobra application:
+													<ul>
+														<li>
+															Added additional User Controls for controlling additional scientific devices (e.g. liquid pump, Watlow heater controller, and a FT-IR macchine)
+															<ul>
+																<li>Developed a small client/server network program that allowed basic communication between Cobra and a device that wasn't allowed on the main network</li>
+															</ul>
+														</li>
+														<li>Implemented an "*.ini" file reader/writer used to maintain application state persistence through User-Controller serialization</li>
+													</ul>
+												</li>
+												<li>
+													Ported Buzzard application from Windows Forms Frameowrk over to WPF
+													<ul>
+														<li>
+															Buzzard registers incoming scientific data-files and creates trigger files that are used to process said data
+															<ul>
+																<li>On client request, extened application to scan for unregistered files that were no-loger incoming</li>
+															</ul>
+														</li>
+														<li>
+															Re-created UI with WPF controls
+														</li>
+														<li>
+															Created custom splash screen window to manage long-running start-up code
+															<ul>
+																<li>Moved the SQL cache creation startup code over to a background thread in the splash screen</li>
+															</ul>
+														</li>
+													</ul>
+												</li>
+											</ul>
+										</div>
 									</div>
 									<!-- End Job 01 Content -->
 									<!-- Job 02 Content -->
