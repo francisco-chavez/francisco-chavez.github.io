@@ -321,38 +321,54 @@
 										</div>
 										</div>
 
+										<div>
+											<p>
+											I was brought over to work at PNNL due to my work on Sharc. As a 
+											sub-contractor through WSU, I was limited to only working on Sharc and our 
+											client wanted the possiblility of putting me on additional projects. My 
+											primary focus during this time was still on Sharc, but I also worked on the 
+											occasional outside project.
+											</p>
+										</div>
+
 										<div class="panel-group" id="accordionPNNL_Student">
-											<div>
-												<p>
-												I was brought over to work at PNNL due to my work on Sharc. As a sub-contractor through WSU, I was limited to only working on Sharc and our client wanted the possiblility of putting me on additional projects. My primary focus during this time was still on Sharc, but I also worked on the occasional outside project.
-												</p>
-											</div>
-											<div>
-												<ul>
-													<li>
-														Created a custom selector-control shaped like the Periodic Table
-														<ul><li>This was used for query creation and heat map displays</li></ul>
-													</li>
-													<li>
-														Spent a large portion of my time finding and eliminating bottlenecks
-														<ul>
-															<li>
-																Altered the image analysis algorithms to run in parallel
-																<ul><li>On the production machine, this reduced image analysis to 1/16th of the original time</li></ul>
-															</li>
-															<li>
-																Created a custom wrap panel that virtualized the visual portion of the unseen samples
-																<ul><li>This allowed us to re-size thousands of items without freezing the program</li></ul>
-															</li>
-															<li>
-																Sped-up file parsing by reducing the frequency of updates between the file parser thread and the UI thread
-																<ul><li>There was some sort of overflow issue that was causing a significat slow down in the parser once we reached a few thousand samples</li></ul>
-															</li>
-														</ul> 
-													</li>
-													<li>Created and updated schemas for storing sample data</li>
-													<li>Created new Views for displaying samples and sample data</li>
-												</ul>
+											
+											<div class="panel panel-default">
+												<div class="panel-heading">
+													<h5 class="panel-title"><a data-toggle="collapse" data-parent="accordionPNNL_Student" href="#sharcPNNL_student">Sharc</a></h5>
+												</div>
+												<div id="sharcPNNL_student" class="panel-collapse collapse">
+												<div class="panel-body">
+													<ul>
+														<li>
+															Created a custom selector-control shaped like the Periodic Table
+															<ul><li>This was used for query creation and heat map displays</li></ul>
+														</li>
+														<li>
+															Spent a large portion of my time finding and eliminating bottlenecks
+															<ul>
+																<li>
+																	Altered the image analysis algorithms to run in parallel
+																	<ul>
+																		<li>On the production machine, this reduced image analysis to 1/16th of the original time</li>
+																		<li>This was built on Visual Studio 2008, so we didn't have access to the .NET Parallel library</li>
+																	</ul>
+																</li>
+																<li>
+																	Created a custom wrap panel that virtualized the visual portion of the unseen samples
+																	<ul><li>This allowed us to re-size thousands of items without freezing the program</li></ul>
+																</li>
+																<li>
+																	Sped-up file parsing by reducing the frequency of updates between the file parser thread and the UI thread
+																	<ul><li>There was some sort of overflow issue that was causing a significat slow down in the parser once we reached a few thousand samples</li></ul>
+																</li>
+															</ul> 
+														</li>
+														<li>Created and updated schemas for storing sample data</li>
+														<li>Created new Views for displaying samples and sample data</li>
+													</ul>
+												</div>
+												</div>
 											</div>
 										</div>
 									</div>
@@ -376,11 +392,17 @@
 										</div>
 
 										<div>
-											<div>
-											<p>
-											I was working as a sub-contractor for PNNL throough WSU-TC. Most of my time was spend working on an application named Sharc (not a misspelling, that was the actual name of the program), a piece of software that was being used to help confirm (or disprove) a correclation between the contents of an aerosol particle and the image of said particle. I did a lot of work on:
-											</p>
-											</div>
+										<p>
+										I was working as a sub-contractor for PNNL throough WSU-TC. Most of my time was 
+										spend working on an application named Sharc (not a misspelling, that was the 
+										actual name of the program), a piece of software that was being used to help 
+										confirm (or disprove) a correclation between the contents of an aerosol particle 
+										and the image of said particle. I did a lot of work on:
+										</p>
+										</div>
+
+										<div>
+
 											<div>
 												<ul>
 													<li>User Interface,</li>
