@@ -286,28 +286,64 @@
 												</div>
 												<!-- Body -->
 												<div id="buzzardPanel" class="panel-collapse collapse">
-													<div class="panel-body">
-														<ul>
-															<li>
-																Ported Buzzard application from Windows Forms Frameowrk over to WPF
-															</li>
-															<li>
-																Buzzard registers incoming scientific data-files and creates trigger files that are used to process said data
-																<ul>
-																	<li>On client request, extened application to scan for unregistered files that were no-loger incoming</li>
-																</ul>
-															</li>
-															<li>
-																Re-created UI with WPF controls
-															</li>
-															<li>
-																Created custom splash screen window to manage long-running start-up code
-																<ul>
-																	<li>Moved the SQL cache creation startup code over to a background thread in the splash screen</li>
-																</ul>
-															</li>
-														</ul>
-													</div>
+												<div class="panel-body">
+													<ul>
+														<li>
+															Ported Buzzard application from Windows Forms Frameowrk over to WPF
+														</li>
+														<li>
+															Buzzard registers incoming scientific data-files and creates trigger files that are used to process said data
+															<ul>
+																<li>On client request, extened application to scan for unregistered files that were no-loger incoming</li>
+															</ul>
+														</li>
+														<li>
+															Re-created UI with WPF controls
+														</li>
+														<li>
+															Created custom splash screen window to manage long-running start-up code
+															<ul>
+																<li>Moved the SQL cache creation startup code over to a background thread in the splash screen</li>
+															</ul>
+														</li>
+													</ul>
+												</div>
+												</div>
+											</div>
+											<!-- End Panel -->
+											<!-- Start Panel -->
+											<div class="panel panel-default">
+												<!-- Heading -->
+												<div class="panel-heading">
+													<h5 class="panel-title"><a data-toggle="collapse" data-parent="accordionPNNL_RA" href="#straightToVideo">Straight to Video</a></h5>
+												</div>
+												<!-- Body -->
+												<div id="straightToVideo" class="panel-collapse collapse">
+												<div class="panel-body">
+													
+													<p>
+													One day, Brian asked me if I could create something that would 
+													create a video recording of a section of a WPF based application; he 
+													also wanted my take on possible ways to freely move items around on 
+													a WPF application. He was working on some kind of particle 
+													simulation with a visual display of the particle movements, and he 
+													wanted to be able to record the simulations.
+													</p>
+
+													<ul>
+														<li>
+															I created a prototype application named "Straight to Video"
+															<ul>
+																<li>It included freely draggable items placed within a canvas</li>
+																<li>Side Note: I named the prototype after the song, "Straight to Video"; I found the music video to be quite memorable</li>
+															</ul>
+														</li>
+														<li>
+															I then built a recorder class that could be dropped onto the control/component we wanted to record
+															<ul><li>This class created images of the component, while using the AForge library to create a video from those images</li></ul>
+														</li>
+													</ul>
+												</div>
 												</div>
 											</div>
 											<!-- End Panel -->
