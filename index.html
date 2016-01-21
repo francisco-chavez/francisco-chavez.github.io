@@ -97,7 +97,66 @@
 								<div role="tabpanel" class="tab-pane" id="prj_memGame">Memory Game</div>
 								<div role="tabpanel" class="tab-pane" id="prj_adHuff">Huff</div>
 								<div role="tabpanel" class="tab-pane" id="prj_conLife">Conway's Game of Life</div>
-								<div role="tabpanel" class="tab-pane" id="prj_formNone">Formula None Racing Game</div>
+								<div role="tabpanel" class="tab-pane" id="prj_formNone">
+
+									<!-- Sub-Header -->
+									<div class="panel panel-info" style="margin-bottom: 4px;">
+									<div class="text-primary panel-info" style="margin:2px;margin-left:6px;margin-right:6px;">
+										<div class="row">
+											<div class="col-md-2">Project:</div>
+											<div class="col-md-4">Formula None Racing Game</div>
+											<div class="col-md-2"></div>
+											<div class="col-md-1">Status:</div>
+											<div class="col-md-3">Abandoned</div>
+										</div>
+										<div class="row">
+											<div class="col-md-2">Framework:</div>
+											<div class="col-md-4">Microsoft's XNA Framework and WPF Framework</div>
+											<div class="col-md-2"></div>
+											<div class="col-md-4"></div>
+										</div>
+									</div>
+									</div>
+									<!-- End Sub-Header -->
+
+									<p>
+										I spent over a year building and re-building this racing game. I kept reading that
+										a developer should experience building a game from scratch early on, so I build
+										most of my components from scratch. During this time, I had to study up on things
+										like basic game physics, collision detection, collision resolution, genetic algorithms,
+										neural-networks trained through genetic algorithms, and game-state management. I also
+										built a WPF based race track editor application that was used to: create Obstacle Placement
+										Maps, create AI Way-Point Navigation Maps, and train/breed AI Neural-Network Maps.
+									</p>
+									<p>
+										I had gotten the game to work to the point where the AI would lap me on tracks I was
+										unaccustomed to driving on. I was in the middle of redoing the AI Training System when
+										I started looking into the Unity 3D Game Engine and stopped working on this project.
+									</p>
+									<ul>
+										<li>Created my own game asset images with Inkscape</li>
+										<li>Coded my own 2D Convex Polygon based collision detection and resolution system</li>
+										<li>
+											Developed an image scanning algorithm to find AI Waypoint locations from altered race track images
+											<ul>
+												<li>Created an editor window that was used to manually connect the waypointss and give them directionality</li>
+											</ul>
+										</li>
+										<li>Created an Obstacle Editor Window that could be used to manually create and rearrange obstacles for a race track</li>
+										<li>
+											Integrated genetic algorithms for neural-network training
+											<ul>
+												<li>Used approximated bell-curves to limit ranges in genetic mutations</li>
+												<li>Coded my own genetic-algorithm based neural-network library</li>
+												<li>
+													Used SQL-CE as my training-data storage-solution
+													<ul><li>A few hundrend generations of 64 to 144 network maps per generation is a lot of data</li></ul>
+												</li>
+												<li>Able to export selected Neural-Network Maps to XML files</li>
+											</ul>
+										</li>
+									</ul>
+								</div>
 								
 								<!-- Shooter Practice -->
 								<div role="tabpanel" class="tab-pane" id="prj_shootPract">
