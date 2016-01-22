@@ -95,7 +95,57 @@
 
 								<div role="tabpanel" class="tab-pane active" id="prj_calc">Calc</div>
 								<div role="tabpanel" class="tab-pane" id="prj_memGame">Memory Game</div>
-								<div role="tabpanel" class="tab-pane" id="prj_adHuff">Huff</div>
+
+								<div role="tabpanel" class="tab-pane" id="prj_adHuff">
+
+									<!-- Sub-Header -->
+									<div class="panel panel-info" style="margin-bottom: 4px;">
+									<div class="text-primary panel-info" style="margin:2px;margin-left:6px;margin-right:6px;">
+										<div class="row">
+											<div class="col-md-2">Project:</div>
+											<div class="col-md-4">Huffman File Reader/Writer</div>
+											<div class="col-md-2"></div>
+											<div class="col-md-1">Status:</div>
+											<div class="col-md-3">Complete</div>
+										</div>
+										<div class="row">
+											<div class="col-md-2">Framework:</div>
+											<div class="col-md-4">Microsoft's .NET Framework and C#</div>
+											<div class="col-md-2"></div>
+											<div class="col-md-4"></div>
+										</div>
+									</div>
+									</div>
+									<!-- End Sub-Header -->
+
+									<div>
+										<p>
+										<a href="https://en.wikipedia.org/wiki/Huffman_coding">Huffman encoding</a> achieves file 
+										compression by using shorter binary-codes to represent the more frequent characters in a 
+										text file. To be honest, this little project showed me that you get much better compression 
+										with Zip files. Normal text file formats use fixed-length binary-codes to represent their 
+										characters; Huffman coding uses variable-length binary-codes to do this.
+										</p>
+										<p>
+										<a href="https://en.wikipedia.org/wiki/Huffman_coding">Huffman encoding</a> encoding splits 
+										key generation and text encodign into seperate steps. This generates the need to find a way 
+										to get the key to the file recipient. 
+										<a href="https://en.wikipedia.org/wiki/Adaptive_Huffman_coding">Adaptive Huffman coding</a> 
+										encodes the key into the end result as it's being compressed. 
+										</p>
+
+										<ul>
+											<li>
+												Created an Adaptive Huffman Tree class to be used for for text encoding and decoding
+												<ul><li>This is based on the Adaptive Huffman Tree I implemented for the Advanced Data Structures course at WSU-TC</li></ul>
+											</li>
+											<li>Created a File Writer class that can be used for file compression</li>
+											<li>Created a File Reader class that can be used for file decompression</li>
+											<li><a href="https://github.com/francisco-chavez/Adaptive_Huffman">Source code</a> can be found on GitHub</li>
+										</ul>
+									</div>
+
+								</div>
 
 								<div role="tabpanel" class="tab-pane" id="prj_conLife">
 									
