@@ -467,223 +467,309 @@
 				</div>
 				<!-- Panel Content -->
 				<div id="collapseTwo" class="panel-collapse collapse in">
-					<div class="panel-body">
+				<div class="panel-body">
 
-						<div class="container-fluid">
-						<div class="row">
+					<div class="container-fluid">
+					<div class="row">
 
-							<!-- Education Headers -->
-							<div class="col-md-4">
-								<ul class="nav nav-pills nav-stacked" role="tablist">
-									<!-- School 01 Header -->
-									<li role="presentation" class="active"><a href="#school01" data-toggle="tab">Washington State University Tri-Cities</a></li>
-									<!-- School 02 Header -->
-									<li role="presentation"><a href="#school02" data-toggle="tab">Columbia Basin College</a></li>
-									<!-- School 03 Header -->
-									<li role="presentation"><a href="#school03" data-toggle="tab">University of Washington</a></li>
-								</ul>
-							</div>
+						<!-- Education Headers -->
+						<div class="col-md-4">
+							<ul class="nav nav-pills nav-stacked" role="tablist">
+								<!-- School 01 Header -->
+								<li role="presentation" class="active"><a href="#school01" data-toggle="tab">Washington State University Tri-Cities</a></li>
+								<!-- School 02 Header -->
+								<li role="presentation"><a href="#school02" data-toggle="tab">Columbia Basin College</a></li>
+								<!-- School 03 Header -->
+								<li role="presentation"><a href="#school03" data-toggle="tab">University of Washington</a></li>
+							</ul>
+						</div>
 
-							<!-- Schools' details -->
-							<div class="col-md-8">
-							<div class="tab-content">
+						<!-- Schools' details -->
+						<div class="col-md-8">
+						<div class="tab-content">
 
-								<!-- School 01 Details -->
-								<div role="tabpanel" class="tab-pane active" id="school01">
+							<!-- School 01 Details -->
+							<div role="tabpanel" class="tab-pane active" id="school01">
 
-									<!-- Sub Header -->
-									<div class="panel panel-info" style="margin-bottom: 4px;">
-									<div class="text-primary panel-info" style="margin:2px;margin-left:6px;margin-right:6px;">
-										<div class="row">
-											<div class="col-md-2">Degree:</div>
-											<div class="col-md-4">Bachelor of Science</div>
-											<div class="col-md-2"></div>
-											<div class="col-md-4">August 2008 - May 2011</div>
+								<!-- Sub Header -->
+								<div class="panel panel-info" style="margin-bottom: 4px;">
+								<div class="text-primary panel-info" style="margin:2px;margin-left:6px;margin-right:6px;">
+									<div class="row">
+										<div class="col-md-2">Degree:</div>
+										<div class="col-md-4">Bachelor of Science</div>
+										<div class="col-md-2"></div>
+										<div class="col-md-4">August 2008 - May 2011</div>
+									</div>
+									<div class="row">
+										<div class="col-md-2">Major:</div>
+										<div class="col-md-4">Computer Science</div>
+										<div class="col-md-2"></div>
+										<div class="col-md-4">Richland, WA</div>
+									</div>
+								</div>
+								</div>
+
+								<div class="panel-group" id="ed_wsu_accord">
+
+									<div class="panel panel-default">
+										<div class="panel-heading">
+											<h5 class="panel-title"><a data-toggle="collapse" data-parent="#ed_wsu_accord" href="#collapseCompLanguages">Computer Languages:</a></h5>
 										</div>
-										<div class="row">
-											<div class="col-md-2">Major:</div>
-											<div class="col-md-4">Computer Science</div>
-											<div class="col-md-2"></div>
-											<div class="col-md-4">Richland, WA</div>
+										<div id="collapseCompLanguages" class="panel-collapse collapse">
+										<div class="panel-body">
+
+											<p>
+												Class Project: Create a programming language and implement an interpreter for said language:
+											</p>
+											<ul>
+												<li>
+													We used an Iterative Development approach
+													<ul>
+														<li>Each iteration added features to the language and then updated the interpreter to handle the changes</li>
+														<li>The professor designed the project ot have a different Team Lead for each iteration</li>
+														<li>The professor selected me as Team Lead for the first iteration due to my work in his Operating System Design course</li>
+													</ul>
+												</li>
+												<li>
+													I decided to use a seperate Scanner-Parser approach to process all the commands
+													<ul>
+														<li>This allowed the interpreter's components to be more easily broken down in order to spread the workload</li>
+														<li>This also required a well defined message format between the Scanner and Parser components</li>
+													</ul>
+												</li>
+												<li>My main area of focus was the Parser which was used to build the execution trees</li>
+												<li>
+													I designed and planned out the recursion mechanism at the end of phase three
+													<ul><li>It's design and implementing request was a crunch time decision made by the phase three Team Lead</li></ul>
+												</li>
+											</ul>
+
+										</div>
 										</div>
 									</div>
+
+									<div class="panel panel-default">
+										<div class="panel-heading">
+											<h5 class="panel-title"><a data-toggle="collapse" data-parent="#ed_wsu_accord" href="#collapseSoftEngI">Software Engineering I:</a></h5>
+										</div>
+										<div id="collapseSoftEngI" class="panel-collapse collapse">
+										<div class="panel-body">
+											<ul>
+												<li>
+													Implemented a Turing Machine (TM) Simulator ontop of C++
+													<ul><li>The simlator was able to build the TM based on an input file</li></ul>
+												</li>
+											</ul>
+										</div>
+										</div>
 									</div>
 
-									<div>
-										<ul>
-											<li>
-												Computer Languages:
-												<ul><li>
-													Class Project: Create a programing language and implement an interpreter for said language
+									<div class="panel panel-default">
+										<div class="panel-heading">
+											<h5 class="panel-title"><a data-toggle="collapse" data-parent="#ed_wsu_accord" href="#collapseSoftEngII">Software Engineering II:</a></h5>
+										</div>
+										<div id="collapseSoftEngII" class="panel-collapse collapse">
+										<div class="panel-body">
+											<ul>
+												<li>
+													Two Man Team Project: Build an Android App and test it using techniques tought throught the semester
+													<ul><li>
+														We built a game of Black Jack and tested it in the following ways:
+														<ul>
+															<li>Branch Hit Testing</li>
+															<li>Unit Testing</li>
+															<li>User Acceptance Testing</li>
+														</ul>
+													</li></ul>
+												</li>
+											</ul>
+										</div>
+										</div>
+									</div>
+
+									<div class="panel panel-default">
+										<div class="panel-heading">
+											<h5 class="panel-title"><a data-toggle="collapse" data-parent="#ed_wsu_accord" href="#collapseIntroDatabase">Introduction to Databases:</a></h5>
+										</div>
+										<div id="collapseIntroDatabase" class="panel-collapse collapse">
+										<div class="panel-body">
+											
+										</div>
+										</div>
+									</div>
+
+									<div class="panel panel-default">
+										<div class="panel-heading">
+											<h5 class="panel-title"><a data-toggle="collapse" data-parent="#ed_wsu_accord" href="#collapseSoftDevI">Software Development I:</a></h5>
+										</div>
+										<div id="collapseSoftDevI" class="panel-collapse collapse">
+										<div class="panel-body">
+											<ul>
+												<li>
+													Four Man Group Project: Create a visual development environment for Charon by using the Eclipse's EMF
+												</li>
+												<li>UML</li>
+											</ul>
+										</div>
+										</div>
+									</div>
+
+									<div class="panel panel-default">
+										<div class="panel-heading">
+											<h5 class="panel-title"><a data-toggle="collapse" data-parent="#ed_wsu_accord" href="#collapseSoftDevII">Software Development II:</a></h5>
+										</div>
+										<div id="collapseSoftDevII" class="panel-collapse collapse">
+										<div class="panel-body">
+											
+											<ul>
+												<li>
+													Three Man Group Project: Port over the Hy++ interpreter from NetBeans to Eclipse's EMF and extend it by adding an IDE
 													<ul>
 														<li>
-															We used an Iterative Development approach to design the language and implement the interpreter
-															<ul>
-																<li>The professor designed the project to have a different team lead for each iteration</li>
-																<li>The professor selected me as team lead for the first iteration due to my work in his Operating System Design class</li>
-															</ul>
+															I created translation methods that replaced the calls the interpreter made to it's old framework
+															<ul><li>This required me to figure out what the function making the call wanted done and finding alternative ways to get this done</li></ul>
 														</li>
 														<li>
-															I decided to use a Scan-Parser approach to process all the commands
-															<ul>
-																<li>This allowed the interpreter's components to be more easily broken down in order to spread the workload</li>
-																<li>This also required a well defined message format between the Scanner and Parser components</li>
-															</ul>
+															I created a state drawing and coloring library that we were able to call from our IDE to show off Hy++ for our project demonstartion
 														</li>
-														<li>My main area of focus was the Parser which was used to build the execution trees</li>
 														<li>
-															I designed and planned out the recursion mechanism at the end of phase three
-															<ul><li>It's design and implementing request was a crunch time decision made by the phase three team lead</li></ul>
+															I also did a lot of debugging to the Hy++ compiler that was handed over to us
+															<ul><li>There were an awful lot of odd, coding bugs in something that used a very solid design. I sometimes wonder if someone broke a few features before the project was handed to us.</li></ul>
 														</li>
 													</ul>
-												</li></ul>
-											</li>
-											<li>
-												Software Engineering I:
-												<ul>
-													<li>
-														Implemented a Turing Machine (TM) Simulator ontop of C++
-														<ul><li>The simlator was able to build the TM based on an input file</li></ul>
-													</li>
-												</ul>
-											</li>
-											<li>
-												Software Engineering II:
-												<ul>
-													<li>
-														Two Man Team Project: Build an Android App and test it using techniques tought throught the semester
-														<ul><li>
-															We built a game of Black Jack and tested it in the following ways:
-															<ul>
-																<li>Branch Hit Testing</li>
-																<li>Unit Testing</li>
-																<li>User Acceptance Testing</li>
-															</ul>
-														</li></ul>
-													</li>
-												</ul>
-											</li>
-											<li>Introductory Database Course</li>
-											<li>Introductory Graph Theory Course</li>
-											<li>
-												Software Development I:
-												<ul>
-													<li>
-														Four Man Group Project: Create a visual development environment for Charon by using the Eclipse's EMF
-													</li>
-													<li>UML</li>
-												</ul>
-											</li>
-											<li>
-												Software Development II:
-												<ul>
-													<li>
-														Three Man Group Project: Port over the Hy++ interpreter from NetBeans to Eclipse's EMF and extend it by adding an IDE
-														<ul>
-															<li>
-																I created translation methods that replaced the calls the interpreter made to it's old framework
-																<ul><li>This required me to figure out what the function making the call wanted done and finding alternative ways to get this done</li></ul>
-															</li>
-															<li>
-																I created a state drawing and coloring library that we were able to call from our IDE to show off Hy++ for our project demonstartion
-															</li>
-															<li>
-																I also did a lot of debugging to the Hy++ compiler that was handed over to us
-																<ul><li>There were an awful lot of odd, coding bugs in something that used a very solid design. I sometimes wonder if someone broke a few features before the project was handed to us.</li></ul>
-															</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
-											<li>
-												Operating System Design:
-												<ul>
-													<li>Project: Process Scheduling Simulation Project</li>
-													<li>System Level Memory Management</li>
-												</ul>
-											</li>
-											<li>Computer Architecture:</li>
-											<li>Advanced Data-Structures:</li>
-											<li>Algorithms:</li>
-										</ul>
-									</div>
+												</li>
+											</ul>
 
-								</div>
-
-								<!-- School 02 Details -->
-								<div role="tabpanel" class="tab-pane" id="school02">
-
-									<!-- Sub-Header -->
-									<div class="panel panel-info" style="margin-bottom: 4px;">
-									<div class="text-primary panel-info" style="margin:2px;margin-left:6px;margin-right:6px;">
-										<div class="row">
-											<div class="col-md-8"></div>
-											<div class="col-md-4">June 2007 - June 2008</div>
 										</div>
-										<div class="row">
-											<div class="col-md-2">Major:</div>
-											<div class="col-md-4">Computer Science</div>
-											<div class="col-md-2"></div>
-											<div class="col-md-4">Pasco, WA</div>
 										</div>
 									</div>
-									</div>
 
-									<div>
-										<ul>
-											<li>Introduction to Progamming I, II, and III: C++</li>
-											<li>Data-Structures</li>
-											<li>Philosophy of Logic</li>
-											<li>Discrete Mathematics</li>
-										</ul>
-									</div>
-
-								</div>
-
-								<!-- School 03 Details -->
-								<div role="tabpanel" class="tab-pane" id="school03">
-
-									<!-- Sub-Header -->
-									<div class="panel panel-info" style="margin-bottom: 4px;">
-									<div class="text-primary panel-info" style="margin:2px;margin-left:6px;margin-right:6px;">
-										<div class="row">
-											<div class="col-md-8"></div>
-											<div class="col-md-4">September 2004 - March 2007</div>
+									<div class="panel panel-default">
+										<div class="panel-heading">
+											<h5 class="panel-title"><a data-toggle="collapse" data-parent="#ed_wsu_accord" href="#collapseOSDesign">Operating System Design:</a></h5>
 										</div>
-										<div class="row">
-											<div class="col-md-2">Major:</div>
-											<div class="col-md-4">Pre-Science</div>
-											<div class="col-md-2"></div>
-											<div class="col-md-4">Seattle, WA</div>
+										<div id="collapseOSDesign" class="panel-collapse collapse">
+										<div class="panel-body">
+											<ul>
+												<li>Project: Process Scheduling Simulation Project</li>
+												<li>System Level Memory Management</li>
+											</ul>
+										</div>
 										</div>
 									</div>
-									</div>
-									<!-- End Sub-Header -->
 
-									<div>
-										<ul>
-											<li>
-												Introduction to Progamming I and II: Java
-												<ul>
-													<li>Learned basic programming: Branching, Loops, Classes, Using Common Data-Structures</li>
-													<li>Created an Anagram Finder program using a Recursive Backtracking algorithm</li>
-												</ul>
-											</li>
-											<li>Calculus</li>
-											<li>Linear Algebra</li>
-											<li>Physics</li>
-										</ul>
+									<div class="panel panel-default">
+										<div class="panel-heading">
+											<h5 class="panel-title"><a data-toggle="collapse" data-parent="#ed_wsu_accord" href="#collapseCompArch">Computer Architecture:</a></h5>
+										</div>
+										<div id="collapseCompArch" class="panel-collapse collapse">
+										<div class="panel-body">
+
+										</div>
+										</div>
+									</div>
+
+									<div class="panel panel-default">
+										<div class="panel-heading">
+											<h5 class="panel-title"><a data-toggle="collapse" data-parent="#ed_wsu_accord" href="#collapseAdvDataStruct">Advanced Data-Structures:</a></h5>
+										</div>
+										<div id="collapseAdvDataStruct" class="panel-collapse collapse">
+										<div class="panel-body">
+
+										</div>
+										</div>
+									</div>
+
+									<div class="panel panel-default">
+										<div class="panel-heading">
+											<h5 class="panel-title"><a data-toggle="collapse" data-parent="#ed_wsu_accord" href="#collapseAlgorithms">Algorithms:</a></h5>
+										</div>
+										<div id="collapseAlgorithms" class="panel-collapse collapse">
+										<div class="panel-body">
+
+										</div>
+										</div>
 									</div>
 
 								</div>
 
 							</div>
+							<!-- End School 01 Details -->
+
+							<!-- School 02 Details -->
+							<div role="tabpanel" class="tab-pane" id="school02">
+
+								<!-- Sub-Header -->
+								<div class="panel panel-info" style="margin-bottom: 4px;">
+								<div class="text-primary panel-info" style="margin:2px;margin-left:6px;margin-right:6px;">
+									<div class="row">
+										<div class="col-md-8"></div>
+										<div class="col-md-4">June 2007 - June 2008</div>
+									</div>
+									<div class="row">
+										<div class="col-md-2">Major:</div>
+										<div class="col-md-4">Computer Science</div>
+										<div class="col-md-2"></div>
+										<div class="col-md-4">Pasco, WA</div>
+									</div>
+								</div>
+								</div>
+
+								<div>
+									<ul>
+										<li>Introduction to Progamming I, II, and III: C++</li>
+										<li>Data-Structures</li>
+										<li>Philosophy of Logic</li>
+										<li>Discrete Mathematics</li>
+									</ul>
+								</div>
+
+							</div>
+
+							<!-- School 03 Details -->
+							<div role="tabpanel" class="tab-pane" id="school03">
+
+								<!-- Sub-Header -->
+								<div class="panel panel-info" style="margin-bottom: 4px;">
+								<div class="text-primary panel-info" style="margin:2px;margin-left:6px;margin-right:6px;">
+									<div class="row">
+										<div class="col-md-8"></div>
+										<div class="col-md-4">September 2004 - March 2007</div>
+									</div>
+									<div class="row">
+										<div class="col-md-2">Major:</div>
+										<div class="col-md-4">Pre-Science</div>
+										<div class="col-md-2"></div>
+										<div class="col-md-4">Seattle, WA</div>
+									</div>
+								</div>
+								</div>
+								<!-- End Sub-Header -->
+
+								<div>
+									<ul>
+										<li>
+											Introduction to Progamming I and II: Java
+											<ul>
+												<li>Learned basic programming: Branching, Loops, Classes, Using Common Data-Structures</li>
+												<li>Created an Anagram Finder program using a Recursive Backtracking algorithm</li>
+											</ul>
+										</li>
+										<li>Calculus</li>
+										<li>Linear Algebra</li>
+										<li>Physics</li>
+									</ul>
+								</div>
+
 							</div>
 
 						</div>
 						</div>
 
 					</div>
+					</div>
+
+				</div>
 				</div>
 			</div>
 			<!-- End Education Panel -->
