@@ -73,388 +73,391 @@
 				</div>
 				<!-- Panel Content -->
 				<div id="collapseFour" class="panel-collapse collapse in">
-					<div class="panel-body">
+				<div class="panel-body">
 
-						<div class="container-fluid">
-						<div class="row">
-							<!-- Projects' Headers -->
-							<div class="col-md-4">
-							<ul class="nav nav-pills nav-stacked" role="tablist">
-								<li role="presentation"><a href="#prj_blender" data-toggle="tab">Blender</a></li>
-								<li role="presentation" class="active"><a href="#prj_calc" data-toggle="tab">Calc</a></li>
-								<li role="presentation"><a href="#prj_memGame" data-toggle="tab">Game of Memory</a></li>
-								<li role="presentation"><a href="#prj_adHuff" data-toggle="tab">Adaptive Huffman Reader/Writer</a></li>
-								<li role="presentation"><a href="#prj_conLife" data-toggle="tab">Conway's Game of Life</a></li>
-								<li role="presentation"><a href="#prj_elementSelect" data-toggle="tab">Periodic Table Selector</a></li>
-								<li role="presentation"><a href="#prj_formNone" data-toggle="tab">Formula None</a></li>
-								<li role="presentation"><a href="#prj_shootPract" data-toggle="tab">Shooter Practice</a></li>
-							</ul>
-							</div>
-							<!-- End Project Headers -->
+					<div class="container-fluid">
+					<div class="row">
+						<!-- Projects' Headers -->
+						<div class="col-md-4">
+						<ul class="nav nav-pills nav-stacked" role="tablist">
+							<li role="presentation"><a href="#prj_blender" data-toggle="tab">Blender</a></li>
+							<li role="presentation" class="active"><a href="#prj_calc" data-toggle="tab">Calc</a></li>
+							<li role="presentation"><a href="#prj_memGame" data-toggle="tab">Game of Memory</a></li>
+							<li role="presentation"><a href="#prj_dataStructs" data-toggle="tab">Algorithms and Data-Structures</a></li>
+							<li role="presentation"><a href="#prj_adHuff" data-toggle="tab">Adaptive Huffman Reader/Writer</a></li>
+							<li role="presentation"><a href="#prj_conLife" data-toggle="tab">Conway's Game of Life</a></li>
+							<li role="presentation"><a href="#prj_elementSelect" data-toggle="tab">Periodic Table Selector</a></li>
+							<li role="presentation"><a href="#prj_formNone" data-toggle="tab">Formula None</a></li>
+							<li role="presentation"><a href="#prj_shootPract" data-toggle="tab">Shooter Practice</a></li>
+						</ul>
+						</div>
+						<!-- End Project Headers -->
 
-							<!-- Projects' Details -->
-							<div class="col-md-8">
-							<div class="tab-content">
+						<!-- Projects' Details -->
+						<div class="col-md-8">
+						<div class="tab-content">
+							
+							<div role="tabpanel" class="tab-pane" id="prj_blender"></div>
+
+							<div role="tabpanel" class="tab-pane active" id="prj_calc">
 								
-								<div role="tabpanel" class="tab-pane" id="prj_blender"></div>
-
-								<div role="tabpanel" class="tab-pane active" id="prj_calc">
-									
-									<!-- Sub-Header -->
-									<div class="panel panel-info" style="margin-bottom: 4px;">
-									<div class="text-primary panel-info" style="margin:2px;margin-left:6px;margin-right:6px;">
-										<div class="row">
-											<div class="col-md-2">Project:</div>
-											<div class="col-md-4">Calc</div>
-											<div class="col-md-2"></div>
-											<div class="col-md-1">Status:</div>
-											<div class="col-md-3">Ongoing</div>
-										</div>
-										<div class="row">
-											<div class="col-md-2">Framework:</div>
-											<div class="col-md-4">WPF Framework</div>
-											<div class="col-md-6"></div>
-										</div>
+								<!-- Sub-Header -->
+								<div class="panel panel-info" style="margin-bottom: 4px;">
+								<div class="text-primary panel-info" style="margin:2px;margin-left:6px;margin-right:6px;">
+									<div class="row">
+										<div class="col-md-2">Project:</div>
+										<div class="col-md-4">Calc</div>
+										<div class="col-md-2"></div>
+										<div class="col-md-1">Status:</div>
+										<div class="col-md-3">Ongoing</div>
 									</div>
-									</div>
-									<!-- End Sub-Header -->
-
-									<div>
-										<p>
-											This is a simple calculator program writen in C# on the WPF Framework. When I say simple, I mean 
-											that is isn't much better than a five dollar calculator you would give to a little kid.
-										</p>
-									</div>
-
-								</div>
-
-								<div role="tabpanel" class="tab-pane" id="prj_memGame">
-									
-									<!-- Sub-Header -->
-									<div class="panel panel-info" style="margin-bottom: 4px;">
-									<div class="text-primary panel-info" style="margin:2px;margin-left:6px;margin-right:6px;">
-										<div class="row">
-											<div class="col-md-2">Project:</div>
-											<div class="col-md-4">Memory Game</div>
-											<div class="col-md-2"></div>
-											<div class="col-md-1">Status:</div>
-											<div class="col-md-3">Complete</div>
-										</div>
-										<div class="row">
-											<div class="col-md-2">Framework:</div>
-											<div class="col-md-4">Unity 3D and C#</div>
-											<div class="col-md-6"></div>
-										</div>
-									</div>
-									</div>
-									<!-- End Sub-Header -->
-
-									<div>
-										<p>
-											This is the first full game I've built with Unity 3D that wasn't part of some tutorial. 
-											The game works, and it's playable. I've met a few people that don't assoicate the name
-											Memory to this game, so I'll add a bit of detail.
-										</p>
-										<p>
-											In the game of Memory, a player is given several cards that are face down. During each
-											turn, the player selects two cards to flip face up. If the cards match, they stay face-up.
-											If the cards don't match, the cards get turned face down. In order to win the game, the
-											player must get all cards face-up before they run out of turns.
-										</p>
-										<ul>
-											<li>
-												2D game with 3D card models
-												<ul><li>I used Blender and Inkscape to build these game assets</li></ul>
-											</li>
-											<li>Full menu navigation</li>
-											<li>Multiple game difficulties</li>
-											<li>Mouse and touch screen compatible</li>
-											<li>Sound effects indicating various actions</li>
-											<li><a href="https://github.com/francisco-chavez/Game_Memory">Source code</a> and <a href="https://github.com/francisco-chavez/Game_Memory/releases">executables</a> available on GitHub</li>
-										</ul>
-									</div>
-
-								</div>
-
-								<div role="tabpanel" class="tab-pane" id="prj_adHuff">
-
-									<!-- Sub-Header -->
-									<div class="panel panel-info" style="margin-bottom: 4px;">
-									<div class="text-primary panel-info" style="margin:2px;margin-left:6px;margin-right:6px;">
-										<div class="row">
-											<div class="col-md-2">Project:</div>
-											<div class="col-md-4">Huffman File Reader/Writer</div>
-											<div class="col-md-2"></div>
-											<div class="col-md-1">Status:</div>
-											<div class="col-md-3">Complete</div>
-										</div>
-										<div class="row">
-											<div class="col-md-2">Framework:</div>
-											<div class="col-md-4">Microsoft's .NET Framework and C#</div>
-											<div class="col-md-2"></div>
-										</div>
-									</div>
-									</div>
-									<!-- End Sub-Header -->
-
-									<div>
-										<p>
-										<a href="https://en.wikipedia.org/wiki/Huffman_coding">Huffman encoding</a> achieves file 
-										compression by using shorter binary-codes to represent the more frequent characters in a 
-										text file. To be honest, this little project showed me that you get much better compression 
-										with Zip files. Normal text file formats use fixed-length binary-codes to represent their 
-										characters; Huffman coding uses variable-length binary-codes to do this.
-										</p>
-										<p>
-										<a href="https://en.wikipedia.org/wiki/Huffman_coding">Huffman encoding</a> encoding splits 
-										key generation and text encodign into seperate steps. This generates the need to find a way 
-										to get the key to the file recipient. 
-										<a href="https://en.wikipedia.org/wiki/Adaptive_Huffman_coding">Adaptive Huffman coding</a> 
-										encodes the key into the end result as it's being compressed. 
-										</p>
-
-										<ul>
-											<li>
-												Created an Adaptive Huffman Tree class to be used for for text encoding and decoding
-												<ul><li>This is based on the Adaptive Huffman Tree I implemented for the Advanced Data Structures course at WSU-TC</li></ul>
-											</li>
-											<li>Created a File Writer class that can be used for file compression</li>
-											<li>Created a File Reader class that can be used for file decompression</li>
-											<li><a href="https://github.com/francisco-chavez/Adaptive_Huffman">Source code</a> can be found on GitHub</li>
-										</ul>
-									</div>
-
-								</div>
-
-								<div role="tabpanel" class="tab-pane" id="prj_conLife">
-									
-									<!-- Sub-Header -->
-									<div class="panel panel-info" style="margin-bottom: 4px;">
-									<div class="text-primary panel-info" style="margin:2px;margin-left:6px;margin-right:6px;">
-										<div class="row">
-											<div class="col-md-2">Project:</div>
-											<div class="col-md-4">Conway's Game of Life</div>
-											<div class="col-md-2"></div>
-											<div class="col-md-1">Status:</div>
-											<div class="col-md-3">Complete</div>
-										</div>
-										<div class="row">
-											<div class="col-md-2">Framework:</div>
-											<div class="col-md-4">WPF Framework</div>
-											<div class="col-md-6"></div>
-										</div>
-									</div>
-									</div>
-									<!-- End Sub-Header -->
-
-									<div>
-										<p>
-											This is an implementation of the cellular automation devised by mathematican 
-											<a href="https://en.wikipedia.org/wiki/John_Horton_Conway">John Horton Conway</a>. Its actual name is 
-											<a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Game of Life</a>, but I have always 
-											referred to it as <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway's Game of Life</a>.
-										</p>
-										<ul>
-											<li>Contains both manual and auto play options</li>
-											<li>The size of the Cell Grid can be set at the start of a new simulation</li>
-											<li>It's interesting to watch</li>
-											<li>
-												The <a href="https://github.com/francisco-chavez/Conway-Game-s-Game-of-Life">source code</a> for the project can be found on GitHub
-												<ul><li>Developed on WPF and C#</li></ul>
-											</li>
-											<li>A <a href="https://github.com/francisco-chavez/Conway-Game-s-Game-of-Life/releases">released version</a> of the project can also be found on GitHub</li>
-										</ul>
+									<div class="row">
+										<div class="col-md-2">Framework:</div>
+										<div class="col-md-4">WPF Framework</div>
+										<div class="col-md-6"></div>
 									</div>
 								</div>
-
-								<div role="tabpanel" class="tab-pane" id="prj_elementSelect">
-									
-									<!-- Sub-Header -->
-									<div class="panel panel-info" style="margin-bottom: 4px;">
-									<div class="text-primary panel-info" style="margin:2px;margin-left:6px;margin-right:6px;">
-										<div class="row">
-											<div class="col-md-2">Project:</div>
-											<div class="col-md-4">Periodic Table Selector</div>
-											<div class="col-md-2"></div>
-											<div class="col-md-1">Status:</div>
-											<div class="col-md-3">Complete</div>
-										</div>
-										<div class="row">
-											<div class="col-md-2">Framework:</div>
-											<div class="col-md-4">WPF and C#</div>
-											<div class="col-md-6"></div>
-										</div>
-									</div>
-									</div>
-									<!-- End Sub-Header -->
-
-									<div>
-										<p>
-											This is a Custom Selector Control built on the WPF Framework. It's in the shape
-											of the Periodic Table of Elements. It's a recreation of one of the components I 
-											built for Sharc. I was able to make a performance improvment or two, simply because 
-											I had a bit more skill with WPF when I built this version. It doesn't have all the 
-											features of the Sharc version because all of those features were developed for Sharc's
-											needs. I also added a feture or two that wasn't in Sharc, but would have been a bit 
-											helpful if they had occured to me back then. By default, selected chemical elements
-											will turn on their glow effects to show that they've been selected. Yet, since 
-											is a selector control, there is also a bindable collection of selected elements
-											that is kept up to date in real time.
-										</p>
-										<p>
-											I recreated this control for two reasons. The first being that my co-workers had a
-											bit too much fun using this. Really, I walked into a co-worker's office more than one
-											time, just to find him trying to make different shapes by selecting different elements.
-											The other reason is that this might be the one thing I created while working at PNNL
-											that I can re-create without getting into trouble.
-										</p>
-										<ul>
-											<li>
-												Multiple forms of selection and deselection for chemical elements
-												<ul>
-													<li>Chemical elements can be selected by clicking on them through the GUI</li>
-													<li>Chemical elements can be selected by setting their IsChecked property in code</li>
-													<li>Chemical elements can be selected by directly inserting them into the PeriodicTable's SelectedElements property</li>
-													<li>Chemical elements can have their selection state changed from within any Chemical Group contain said elements</li>
-												</ul>
-											</li>
-											<li>Chemical elements are designed to have their foreground, background, and glow-effect colors changed by assigning a different Brush object to those propeties</li>
-											<li>
-												Chemical elements can be placed in Chemical Groups, allowing changes to be made to multiple elements at once
-												<ul>
-													<li>The Starndard Table Factory already has a few default Chemical Groups that are fairly standard in most Periodic Tables</li>
-													<li>Elements can belong to multiple Chemical Groups</li>
-													<li>
-														Chemical Groups are able to do the following actions to all elements within the group:
-														<ul>
-															<li>Select chemical elements</li>
-															<li>Deselect chemical elements</li>
-															<li>Invert chemical element selection state</li>
-															<li>Set glow brush</li>
-															<li>Set background brush</li>
-															<li>Set foreground brush</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
-											<li>
-												The <a href="https://github.com/francisco-chavez/PeriodicTableSelector">source code</a> can be found on GitHub
-												<ul>
-													<li>The <a href="https://github.com/francisco-chavez/PeriodicTableSelector/releases">executables</a> can also be found on GitHub</li>
-													<li>A demo project is included that shows off a few different ways this selector can be used</li>
-												</ul>
-											</li>
-										</ul>
-									</div>
 								</div>
+								<!-- End Sub-Header -->
 
-								<div role="tabpanel" class="tab-pane" id="prj_formNone">
-
-									<!-- Sub-Header -->
-									<div class="panel panel-info" style="margin-bottom: 4px;">
-									<div class="text-primary panel-info" style="margin:2px;margin-left:6px;margin-right:6px;">
-										<div class="row">
-											<div class="col-md-2">Project:</div>
-											<div class="col-md-4">Formula None Racing Game</div>
-											<div class="col-md-2"></div>
-											<div class="col-md-1">Status:</div>
-											<div class="col-md-3">Abandoned</div>
-										</div>
-										<div class="row">
-											<div class="col-md-2">Framework:</div>
-											<div class="col-md-4">Microsoft's XNA Framework and WPF Framework</div>
-											<div class="col-md-6"></div>
-										</div>
-									</div>
-									</div>
-									<!-- End Sub-Header -->
-
+								<div>
 									<p>
-										I spent over a year building and re-building this racing game. I kept reading that
-										a developer should experience building a game from scratch early on, so I build
-										most of my components from scratch. During this time, I had to study up on things
-										like basic game physics, collision detection, collision resolution, genetic algorithms,
-										neural-networks trained through genetic algorithms, and game-state management. I also
-										built a WPF based race track editor application that was used to: create Obstacle Placement
-										Maps, create AI Way-Point Navigation Maps, and train/breed AI Neural-Network Maps.
+										This is a simple calculator program writen in C# on the WPF Framework. When I say simple, I mean 
+										that is isn't much better than a five dollar calculator you would give to a little kid.
+									</p>
+								</div>
+
+							</div>
+
+							<div role="tabpanel" class="tab-pane" id="prj_memGame">
+								
+								<!-- Sub-Header -->
+								<div class="panel panel-info" style="margin-bottom: 4px;">
+								<div class="text-primary panel-info" style="margin:2px;margin-left:6px;margin-right:6px;">
+									<div class="row">
+										<div class="col-md-2">Project:</div>
+										<div class="col-md-4">Memory Game</div>
+										<div class="col-md-2"></div>
+										<div class="col-md-1">Status:</div>
+										<div class="col-md-3">Complete</div>
+									</div>
+									<div class="row">
+										<div class="col-md-2">Framework:</div>
+										<div class="col-md-4">Unity 3D and C#</div>
+										<div class="col-md-6"></div>
+									</div>
+								</div>
+								</div>
+								<!-- End Sub-Header -->
+
+								<div>
+									<p>
+										This is the first full game I've built with Unity 3D that wasn't part of some tutorial. 
+										The game works, and it's playable. I've met a few people that don't assoicate the name
+										Memory to this game, so I'll add a bit of detail.
 									</p>
 									<p>
-										I had gotten the game to work to the point where the AI would lap me on tracks I was
-										unaccustomed to driving on. I was in the middle of redoing the AI Training System when
-										I started looking into the Unity 3D Game Engine and stopped working on this project.
+										In the game of Memory, a player is given several cards that are face down. During each
+										turn, the player selects two cards to flip face up. If the cards match, they stay face-up.
+										If the cards don't match, the cards get turned face down. In order to win the game, the
+										player must get all cards face-up before they run out of turns.
 									</p>
 									<ul>
-										<li>Created my own game asset images with Inkscape</li>
-										<li>Coded my own 2D Convex Polygon based collision detection and resolution system</li>
 										<li>
-											Developed an image scanning algorithm to find AI Waypoint locations from altered race track images
+											2D game with 3D card models
+											<ul><li>I used Blender and Inkscape to build these game assets</li></ul>
+										</li>
+										<li>Full menu navigation</li>
+										<li>Multiple game difficulties</li>
+										<li>Mouse and touch screen compatible</li>
+										<li>Sound effects indicating various actions</li>
+										<li><a href="https://github.com/francisco-chavez/Game_Memory">Source code</a> and <a href="https://github.com/francisco-chavez/Game_Memory/releases">executables</a> available on GitHub</li>
+									</ul>
+								</div>
+
+							</div>
+
+							<div role="tabpanel" class="tab-pane" id="prj_dataStructs"></div>
+
+							<div role="tabpanel" class="tab-pane" id="prj_adHuff">
+
+								<!-- Sub-Header -->
+								<div class="panel panel-info" style="margin-bottom: 4px;">
+								<div class="text-primary panel-info" style="margin:2px;margin-left:6px;margin-right:6px;">
+									<div class="row">
+										<div class="col-md-2">Project:</div>
+										<div class="col-md-4">Huffman File Reader/Writer</div>
+										<div class="col-md-2"></div>
+										<div class="col-md-1">Status:</div>
+										<div class="col-md-3">Complete</div>
+									</div>
+									<div class="row">
+										<div class="col-md-2">Framework:</div>
+										<div class="col-md-4">Microsoft's .NET Framework and C#</div>
+										<div class="col-md-2"></div>
+									</div>
+								</div>
+								</div>
+								<!-- End Sub-Header -->
+
+								<div>
+									<p>
+									<a href="https://en.wikipedia.org/wiki/Huffman_coding">Huffman encoding</a> achieves file 
+									compression by using shorter binary-codes to represent the more frequent characters in a 
+									text file. To be honest, this little project showed me that you get much better compression 
+									with Zip files. Normal text file formats use fixed-length binary-codes to represent their 
+									characters; Huffman coding uses variable-length binary-codes to do this.
+									</p>
+									<p>
+									<a href="https://en.wikipedia.org/wiki/Huffman_coding">Huffman encoding</a> encoding splits 
+									key generation and text encodign into seperate steps. This generates the need to find a way 
+									to get the key to the file recipient. 
+									<a href="https://en.wikipedia.org/wiki/Adaptive_Huffman_coding">Adaptive Huffman coding</a> 
+									encodes the key into the end result as it's being compressed. 
+									</p>
+
+									<ul>
+										<li>
+											Created an Adaptive Huffman Tree class to be used for for text encoding and decoding
+											<ul><li>This is based on the Adaptive Huffman Tree I implemented for the Advanced Data Structures course at WSU-TC</li></ul>
+										</li>
+										<li>Created a File Writer class that can be used for file compression</li>
+										<li>Created a File Reader class that can be used for file decompression</li>
+										<li><a href="https://github.com/francisco-chavez/Adaptive_Huffman">Source code</a> can be found on GitHub</li>
+									</ul>
+								</div>
+
+							</div>
+
+							<div role="tabpanel" class="tab-pane" id="prj_conLife">
+								
+								<!-- Sub-Header -->
+								<div class="panel panel-info" style="margin-bottom: 4px;">
+								<div class="text-primary panel-info" style="margin:2px;margin-left:6px;margin-right:6px;">
+									<div class="row">
+										<div class="col-md-2">Project:</div>
+										<div class="col-md-4">Conway's Game of Life</div>
+										<div class="col-md-2"></div>
+										<div class="col-md-1">Status:</div>
+										<div class="col-md-3">Complete</div>
+									</div>
+									<div class="row">
+										<div class="col-md-2">Framework:</div>
+										<div class="col-md-4">WPF Framework</div>
+										<div class="col-md-6"></div>
+									</div>
+								</div>
+								</div>
+								<!-- End Sub-Header -->
+
+								<div>
+									<p>
+										This is an implementation of the cellular automation devised by mathematican 
+										<a href="https://en.wikipedia.org/wiki/John_Horton_Conway">John Horton Conway</a>. Its actual name is 
+										<a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Game of Life</a>, but I have always 
+										referred to it as <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway's Game of Life</a>.
+									</p>
+									<ul>
+										<li>Contains both manual and auto play options</li>
+										<li>The size of the Cell Grid can be set at the start of a new simulation</li>
+										<li>It's interesting to watch</li>
+										<li>
+											The <a href="https://github.com/francisco-chavez/Conway-Game-s-Game-of-Life">source code</a> for the project can be found on GitHub
+											<ul><li>Developed on WPF and C#</li></ul>
+										</li>
+										<li>A <a href="https://github.com/francisco-chavez/Conway-Game-s-Game-of-Life/releases">released version</a> of the project can also be found on GitHub</li>
+									</ul>
+								</div>
+							</div>
+
+							<div role="tabpanel" class="tab-pane" id="prj_elementSelect">
+								
+								<!-- Sub-Header -->
+								<div class="panel panel-info" style="margin-bottom: 4px;">
+								<div class="text-primary panel-info" style="margin:2px;margin-left:6px;margin-right:6px;">
+									<div class="row">
+										<div class="col-md-2">Project:</div>
+										<div class="col-md-4">Periodic Table Selector</div>
+										<div class="col-md-2"></div>
+										<div class="col-md-1">Status:</div>
+										<div class="col-md-3">Complete</div>
+									</div>
+									<div class="row">
+										<div class="col-md-2">Framework:</div>
+										<div class="col-md-4">WPF and C#</div>
+										<div class="col-md-6"></div>
+									</div>
+								</div>
+								</div>
+								<!-- End Sub-Header -->
+
+								<div>
+									<p>
+										This is a Custom Selector Control built on the WPF Framework. It's in the shape
+										of the Periodic Table of Elements. It's a recreation of one of the components I 
+										built for Sharc. I was able to make a performance improvment or two, simply because 
+										I had a bit more skill with WPF when I built this version. It doesn't have all the 
+										features of the Sharc version because all of those features were developed for Sharc's
+										needs. I also added a feture or two that wasn't in Sharc, but would have been a bit 
+										helpful if they had occured to me back then. By default, selected chemical elements
+										will turn on their glow effects to show that they've been selected. Yet, since 
+										is a selector control, there is also a bindable collection of selected elements
+										that is kept up to date in real time.
+									</p>
+									<p>
+										I recreated this control for two reasons. The first being that my co-workers had a
+										bit too much fun using this. Really, I walked into a co-worker's office more than one
+										time, just to find him trying to make different shapes by selecting different elements.
+										The other reason is that this might be the one thing I created while working at PNNL
+										that I can re-create without getting into trouble.
+									</p>
+									<ul>
+										<li>
+											Multiple forms of selection and deselection for chemical elements
 											<ul>
-												<li>Created an editor window that was used to manually connect the waypointss and give them directionality</li>
+												<li>Chemical elements can be selected by clicking on them through the GUI</li>
+												<li>Chemical elements can be selected by setting their IsChecked property in code</li>
+												<li>Chemical elements can be selected by directly inserting them into the PeriodicTable's SelectedElements property</li>
+												<li>Chemical elements can have their selection state changed from within any Chemical Group contain said elements</li>
 											</ul>
 										</li>
-										<li>Created an Obstacle Editor Window that could be used to manually create and rearrange obstacles for a race track</li>
+										<li>Chemical elements are designed to have their foreground, background, and glow-effect colors changed by assigning a different Brush object to those propeties</li>
 										<li>
-											Integrated genetic algorithms for neural-network training
+											Chemical elements can be placed in Chemical Groups, allowing changes to be made to multiple elements at once
 											<ul>
-												<li>Used approximated bell-curves to limit ranges in genetic mutations</li>
-												<li>Coded my own genetic-algorithm based neural-network library</li>
+												<li>The Starndard Table Factory already has a few default Chemical Groups that are fairly standard in most Periodic Tables</li>
+												<li>Elements can belong to multiple Chemical Groups</li>
 												<li>
-													Used SQL-CE as my training-data storage-solution
-													<ul><li>A few hundrend generations of 64 to 144 network maps per generation is a lot of data</li></ul>
+													Chemical Groups are able to do the following actions to all elements within the group:
+													<ul>
+														<li>Select chemical elements</li>
+														<li>Deselect chemical elements</li>
+														<li>Invert chemical element selection state</li>
+														<li>Set glow brush</li>
+														<li>Set background brush</li>
+														<li>Set foreground brush</li>
+													</ul>
 												</li>
-												<li>Able to export selected Neural-Network Maps to XML files</li>
+											</ul>
+										</li>
+										<li>
+											The <a href="https://github.com/francisco-chavez/PeriodicTableSelector">source code</a> can be found on GitHub
+											<ul>
+												<li>The <a href="https://github.com/francisco-chavez/PeriodicTableSelector/releases">executables</a> can also be found on GitHub</li>
+												<li>A demo project is included that shows off a few different ways this selector can be used</li>
 											</ul>
 										</li>
 									</ul>
 								</div>
-								
-								<!-- Shooter Practice -->
-								<div role="tabpanel" class="tab-pane" id="prj_shootPract">
-									<!-- Sub-Header -->
-									<div class="panel panel-info" style="margin-bottom: 4px;">
-									<div class="text-primary panel-info" style="margin:2px;margin-left:6px;margin-right:6px;">
-										<div class="row">
-											<div class="col-md-2">Project:</div>
-											<div class="col-md-4">Shooter Practice Game</div>
-											<div class="col-md-2"></div>
-											<div class="col-md-1">Status:</div>
-											<div class="col-md-3">Complete</div>
-										</div>
-										<div class="row">
-											<div class="col-md-2">Framework:</div>
-											<div class="col-md-4">Microsoft's XNA</div>
-											<div class="col-md-6"></div>
-										</div>
+							</div>
+
+							<div role="tabpanel" class="tab-pane" id="prj_formNone">
+
+								<!-- Sub-Header -->
+								<div class="panel panel-info" style="margin-bottom: 4px;">
+								<div class="text-primary panel-info" style="margin:2px;margin-left:6px;margin-right:6px;">
+									<div class="row">
+										<div class="col-md-2">Project:</div>
+										<div class="col-md-4">Formula None Racing Game</div>
+										<div class="col-md-2"></div>
+										<div class="col-md-1">Status:</div>
+										<div class="col-md-3">Abandoned</div>
 									</div>
-									</div>
-									<!-- End Sub-Header -->
-									<div>
-										<p>
-											When it comes to playing a FPS game, I'm not very good when at taking quick aim at 
-											small targes (a.k.a. head-shots). To help with this limitation, I created a small 
-											shooting gallery game. It was a simple, 2D game with a grid where targets would 
-											pop-up. The player would only have a small aiming reticle to show where they were 
-											aiming.
-										</p>
-										<ul>
-											<li>You had till the timer counted down to zero to hit as many targets as possible</li>
-											<li>If you hit the target, another target would pop-up at a random grid location</li>
-											<li>When you hit a target, time would be added to the timer</li>
-											<li>When you hit the target's bullseye, a larger amount of time would be added</li>
-										</ul>
-										<p>
-											Playing the game helped a little bit. Yet, it turns out that I'm just not that good 
-											at predicting a human-player's actions.
-										</p>
+									<div class="row">
+										<div class="col-md-2">Framework:</div>
+										<div class="col-md-4">Microsoft's XNA Framework and WPF Framework</div>
+										<div class="col-md-6"></div>
 									</div>
 								</div>
-							</div>
-							</div>
-							<!-- End Project Details -->
-						</div>
-						</div>
+								</div>
+								<!-- End Sub-Header -->
 
+								<p>
+									I spent over a year building and re-building this racing game. I kept reading that
+									a developer should experience building a game from scratch early on, so I build
+									most of my components from scratch. During this time, I had to study up on things
+									like basic game physics, collision detection, collision resolution, genetic algorithms,
+									neural-networks trained through genetic algorithms, and game-state management. I also
+									built a WPF based race track editor application that was used to: create Obstacle Placement
+									Maps, create AI Way-Point Navigation Maps, and train/breed AI Neural-Network Maps.
+								</p>
+								<p>
+									I had gotten the game to work to the point where the AI would lap me on tracks I was
+									unaccustomed to driving on. I was in the middle of redoing the AI Training System when
+									I started looking into the Unity 3D Game Engine and stopped working on this project.
+								</p>
+								<ul>
+									<li>Created my own game asset images with Inkscape</li>
+									<li>Coded my own 2D Convex Polygon based collision detection and resolution system</li>
+									<li>
+										Developed an image scanning algorithm to find AI Waypoint locations from altered race track images
+										<ul>
+											<li>Created an editor window that was used to manually connect the waypointss and give them directionality</li>
+										</ul>
+									</li>
+									<li>Created an Obstacle Editor Window that could be used to manually create and rearrange obstacles for a race track</li>
+									<li>
+										Integrated genetic algorithms for neural-network training
+										<ul>
+											<li>Used approximated bell-curves to limit ranges in genetic mutations</li>
+											<li>Coded my own genetic-algorithm based neural-network library</li>
+											<li>
+												Used SQL-CE as my training-data storage-solution
+												<ul><li>A few hundrend generations of 64 to 144 network maps per generation is a lot of data</li></ul>
+											</li>
+											<li>Able to export selected Neural-Network Maps to XML files</li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+							
+							<!-- Shooter Practice -->
+							<div role="tabpanel" class="tab-pane" id="prj_shootPract">
+								<!-- Sub-Header -->
+								<div class="panel panel-info" style="margin-bottom: 4px;">
+								<div class="text-primary panel-info" style="margin:2px;margin-left:6px;margin-right:6px;">
+									<div class="row">
+										<div class="col-md-2">Project:</div>
+										<div class="col-md-4">Shooter Practice Game</div>
+										<div class="col-md-2"></div>
+										<div class="col-md-1">Status:</div>
+										<div class="col-md-3">Complete</div>
+									</div>
+									<div class="row">
+										<div class="col-md-2">Framework:</div>
+										<div class="col-md-4">Microsoft's XNA</div>
+										<div class="col-md-6"></div>
+									</div>
+								</div>
+								</div>
+								<!-- End Sub-Header -->
+								<div>
+									<p>
+										When it comes to playing a FPS game, I'm not very good when at taking quick aim at 
+										small targes (a.k.a. head-shots). To help with this limitation, I created a small 
+										shooting gallery game. It was a simple, 2D game with a grid where targets would 
+										pop-up. The player would only have a small aiming reticle to show where they were 
+										aiming.
+									</p>
+									<ul>
+										<li>You had till the timer counted down to zero to hit as many targets as possible</li>
+										<li>If you hit the target, another target would pop-up at a random grid location</li>
+										<li>When you hit a target, time would be added to the timer</li>
+										<li>When you hit the target's bullseye, a larger amount of time would be added</li>
+									</ul>
+									<p>
+										Playing the game helped a little bit. Yet, it turns out that I'm just not that good 
+										at predicting a human-player's actions.
+									</p>
+								</div>
+							</div>
+						</div>
+						</div>
+						<!-- End Project Details -->
 					</div>
+					</div>
+
+				</div>
 				</div>
 			</div>
 			<!-- End Projects Panel -->
@@ -782,321 +785,321 @@
 				</div>
 				<!-- Panel Content -->
 				<div id="collapseThree" class="panel-collapse collapse in">
-					<div class="panel-body">
+				<div class="panel-body">
 
-						<div class="container-fluid">
-						<div class="row">
+					<div class="container-fluid">
+					<div class="row">
 
-							<!-- Jobs Headers -->
-							<div class="col-md-4">
-								<ul class="nav nav-pills nav-stacked" role="tablist">
-									<!-- Job 01 Header -->
-									<li role="presentation" class="active"><a href="#job01" data-toggle="tab">Research Associate | Pacific Northwest National Laboratory</a></li>
-									<!-- Job 02 Header -->
-									<li role="presentation"><a href="#job02" data-toggle="tab">Student Intern Level 4 | Pacific Northwest National Laboratory</a></li>
-									<!-- Job 03 Header -->
-									<li role="presentation"><a href="#job03" data-toggle="tab">Student Worker | Washington State University</a></li>
-								</ul>
-							</div>
-							<!-- End Jobs Headers -->
+						<!-- Jobs Headers -->
+						<div class="col-md-4">
+							<ul class="nav nav-pills nav-stacked" role="tablist">
+								<!-- Job 01 Header -->
+								<li role="presentation" class="active"><a href="#job01" data-toggle="tab">Research Associate | Pacific Northwest National Laboratory</a></li>
+								<!-- Job 02 Header -->
+								<li role="presentation"><a href="#job02" data-toggle="tab">Student Intern Level 4 | Pacific Northwest National Laboratory</a></li>
+								<!-- Job 03 Header -->
+								<li role="presentation"><a href="#job03" data-toggle="tab">Student Worker | Washington State University</a></li>
+							</ul>
+						</div>
+						<!-- End Jobs Headers -->
 
-							<!-- Jobs Details -->
-							<div class="col-md-8">
-								<div class="tab-content">
-									<!-- Job 01 Content -->
-									<div role="tabpanel" class="tab-pane active" id="job01">
-										
-										<!-- 
-											* I'm using a double div to create the sub-header. The outer of these two divs
-											* is creating the rounded box. The inner div is setting the text color.
-										-->
-										<div class="panel panel-info" style="margin-bottom: 4px;">
-										<div class="text-primary panel-info" style="margin:2px;margin-left:6px;margin-right:6px;">
-											<div class="row">
-												<div class="col-md-2">Group:</div>
-												<div class="col-md-4">Instrument Development Lab</div>
-												<div class="col-md-2"></div>
-												<div class="col-md-4">June 2011 - May 2013</div>
-											</div>
-											<div class="row">
-												<div class="col-md-2">Supervisor:</div>
-												<div class="col-md-4">Daniel Sisk</div>
-												<div class="col-md-2"></div>
-												<div class="col-md-4">Richland, WA</div>
-											</div>
+						<!-- Jobs Details -->
+						<div class="col-md-8">
+							<div class="tab-content">
+								<!-- Job 01 Content -->
+								<div role="tabpanel" class="tab-pane active" id="job01">
+									
+									<!-- 
+										* I'm using a double div to create the sub-header. The outer of these two divs
+										* is creating the rounded box. The inner div is setting the text color.
+									-->
+									<div class="panel panel-info" style="margin-bottom: 4px;">
+									<div class="text-primary panel-info" style="margin:2px;margin-left:6px;margin-right:6px;">
+										<div class="row">
+											<div class="col-md-2">Group:</div>
+											<div class="col-md-4">Instrument Development Lab</div>
+											<div class="col-md-2"></div>
+											<div class="col-md-4">June 2011 - May 2013</div>
 										</div>
+										<div class="row">
+											<div class="col-md-2">Supervisor:</div>
+											<div class="col-md-4">Daniel Sisk</div>
+											<div class="col-md-2"></div>
+											<div class="col-md-4">Richland, WA</div>
 										</div>
-
-										<div>
-											<p>
-											The Instrument Development Lab (IDL) is focused on creating instruments for 
-											their clients, most of which are intended for scientific use. During this 
-											time, I worked on various projects, for various clients. A large part of the 
-											work I did was based on WPF/C#, but I also worked with other technologies: 
-											Windows Forms, SQL, ASP.NET, HTML, jQuery, JavaScript, some networking code, 
-											etc. Here's a sampling of some of the work I did:
-											</p>
-										</div>
-
-										<div class="panel-group" id="accordionPNNL_RA">
-
-											<!-- Start Panel -->
-											<div class="panel panel-default">
-												<!-- Heading -->
-												<div class="panel-heading">
-													<h5 class="panel-title"><a data-toggle="collapse" data-parent="accordionPNNL_RA" href="#ladderPanel">Ladder Application</a></h5>
-												</div>
-												<!-- Body -->
-												<div id="ladderPanel" class="panel-collapse collapse">
-													<div class="panel-body">
-														<ul>
-															<li>
-																Cleaned up the look of the User Interface (UI), making it presentable to project investors
-																<ul>
-																	<li>Switched from colors defined within each component, over to colors defined within Style objects. This allowed quick changes to be made to look and feel of the entire application from a single location</li>
-																</ul>
-															</li>
-															<li>
-																Decoupled data-processing code from UI components
-															</li>
-															<li>
-																General bug-hunting
-															</li>
-														</ul>
-													</div>
-												</div>
-											</div>
-											<!-- End Panel -->
-											<!-- Start Panel -->
-											<div class="panel panel-default">
-												<!-- Heading -->
-												<div class="panel-heading">
-													<h5 class="panel-title"><a data-toggle="collapse" data-parent="accordionPNNL_RA" href="#cobraPanel">Cobra Application</a></h5>
-												</div>
-												<!-- Body -->
-												<div id="cobraPanel" class="panel-collapse collapse">
-													<div class="panel-body">
-														<ul>
-															<li>
-																Expanded the Cobra application:
-																<ul>
-																	<li>
-																		Added additional User Controls for controlling additional scientific devices (e.g. liquid pump, Watlow heater controller, and a FT-IR macchine)
-																		<ul>
-																			<li>Developed a small client/server network program that allowed basic communication between Cobra and a device that wasn't allowed on the main network</li>
-																		</ul>
-																	</li>
-																</ul>
-															</li>
-															<li>Implemented an "*.ini" file reader/writer used to maintain application state persistence through User-Controller serialization</li>
-														</ul>
-													</div>
-												</div>
-											</div>
-											<!-- End Panel -->
-											<!-- Start Panel -->
-											<div class="panel panel-default">
-												<!-- Heading -->
-												<div class="panel-heading">
-													<h5 class="panel-title"><a data-toggle="collapse" data-parent="accordionPNNL_RA" href="#buzzardPanel">Buzzard Application</a></h5>
-												</div>
-												<!-- Body -->
-												<div id="buzzardPanel" class="panel-collapse collapse">
-												<div class="panel-body">
-													<ul>
-														<li>
-															Ported Buzzard application from Windows Forms Frameowrk over to WPF
-														</li>
-														<li>
-															Buzzard registers incoming scientific data-files and creates trigger files that are used to process said data
-															<ul>
-																<li>On client request, extened application to scan for unregistered files that were no-loger incoming</li>
-															</ul>
-														</li>
-														<li>
-															Re-created UI with WPF controls
-														</li>
-														<li>
-															Created custom splash screen window to manage long-running start-up code
-															<ul>
-																<li>Moved the SQL cache creation startup code over to a background thread in the splash screen</li>
-															</ul>
-														</li>
-													</ul>
-												</div>
-												</div>
-											</div>
-											<!-- End Panel -->
-											<!-- Start Panel -->
-											<div class="panel panel-default">
-												<!-- Heading -->
-												<div class="panel-heading">
-													<h5 class="panel-title"><a data-toggle="collapse" data-parent="accordionPNNL_RA" href="#straightToVideo">Straight to Video</a></h5>
-												</div>
-												<!-- Body -->
-												<div id="straightToVideo" class="panel-collapse collapse">
-												<div class="panel-body">
-													
-													<p>
-													One day, Brian asked me if I could create something that would 
-													create a video recording of a section of a WPF based application; he 
-													also wanted my take on possible ways to freely move items around on 
-													a WPF application. He was working on some kind of particle 
-													simulation with a visual display of the particle movements, and he 
-													wanted to be able to record the simulations.
-													</p>
-
-													<ul>
-														<li>
-															I created a prototype application named "Straight to Video"
-															<ul>
-																<li>It included freely draggable items placed within a canvas</li>
-																<li>Side Note: I named the prototype after the song, "Straight to Video"; I found the music video to be quite memorable</li>
-															</ul>
-														</li>
-														<li>
-															I then built a recorder class that could be dropped onto the control/component we wanted to record
-															<ul><li>This class created images of the component, while using the AForge library to create a video from those images</li></ul>
-														</li>
-													</ul>
-												</div>
-												</div>
-											</div>
-											<!-- End Panel -->
-
-										</div>
-
 									</div>
-									<!-- End Job 01 Content -->
-									<!-- Job 02 Content -->
-									<div role="tabpanel" class="tab-pane" id="job02">
+									</div>
 
-										<div class="panel panel-info" style="margin-bottom:4px;">
-										<div class="text-primary panel-info" style="margin:2px;margin-left:6px;margin-right:6px;">
-											<div class="row">
-												<div class="col-md-2">Group:</div>
-												<div class="col-md-4">Instrument Development Lab</div>
-												<div class="col-md-2"></div>
-												<div class="col-md-4">Sept. 2009 - May 2011</div>
+									<div>
+										<p>
+										The Instrument Development Lab (IDL) is focused on creating instruments for 
+										their clients, most of which are intended for scientific use. During this 
+										time, I worked on various projects, for various clients. A large part of the 
+										work I did was based on WPF/C#, but I also worked with other technologies: 
+										Windows Forms, SQL, ASP.NET, HTML, jQuery, JavaScript, some networking code, 
+										etc. Here's a sampling of some of the work I did:
+										</p>
+									</div>
+
+									<div class="panel-group" id="accordionPNNL_RA">
+
+										<!-- Start Panel -->
+										<div class="panel panel-default">
+											<!-- Heading -->
+											<div class="panel-heading">
+												<h5 class="panel-title"><a data-toggle="collapse" data-parent="accordionPNNL_RA" href="#ladderPanel">Ladder Application</a></h5>
 											</div>
-											<div class="row">
-												<div class="col-md-2">Supervisor:</div>
-												<div class="col-md-4">Daniel Sisk</div>
-												<div class="col-md-2"></div>
-												<div class="col-md-4">Richland, WA</div>
+											<!-- Body -->
+											<div id="ladderPanel" class="panel-collapse collapse">
+											<div class="panel-body">
+												<ul>
+													<li>
+														Cleaned up the look of the User Interface (UI), making it presentable to project investors
+														<ul>
+															<li>Switched from colors defined within each component, over to colors defined within Style objects. This allowed quick changes to be made to look and feel of the entire application from a single location</li>
+														</ul>
+													</li>
+													<li>
+														Decoupled data-processing code from UI components
+													</li>
+													<li>
+														General bug-hunting
+													</li>
+												</ul>
+											</div>
 											</div>
 										</div>
-										</div>
-
-										<div>
-											<p>
-											I was brought over to work at PNNL due to my work on Sharc. As a 
-											sub-contractor through WSU, I was limited to only working on Sharc and our 
-											client wanted the possiblility of putting me on additional projects. My 
-											primary focus during this time was still on Sharc, but I also worked on the 
-											occasional outside project.
-											</p>
-										</div>
-
-										<div class="panel-group" id="accordionPNNL_Student">
-											
-											<div class="panel panel-default">
-												<div class="panel-heading">
-													<h5 class="panel-title"><a data-toggle="collapse" data-parent="accordionPNNL_Student" href="#sharcPNNL_student">Sharc</a></h5>
-												</div>
-												<div id="sharcPNNL_student" class="panel-collapse collapse">
+										<!-- End Panel -->
+										<!-- Start Panel -->
+										<div class="panel panel-default">
+											<!-- Heading -->
+											<div class="panel-heading">
+												<h5 class="panel-title"><a data-toggle="collapse" data-parent="accordionPNNL_RA" href="#cobraPanel">Cobra Application</a></h5>
+											</div>
+											<!-- Body -->
+											<div id="cobraPanel" class="panel-collapse collapse">
 												<div class="panel-body">
 													<ul>
 														<li>
-															Created a custom selector-control shaped like the Periodic Table
-															<ul><li>This was used for query creation and heat map displays</li></ul>
-														</li>
-														<li>
-															Spent a large portion of my time finding and eliminating bottlenecks
+															Expanded the Cobra application:
 															<ul>
 																<li>
-																	Altered the image analysis algorithms to run in parallel
+																	Added additional User Controls for controlling additional scientific devices (e.g. liquid pump, Watlow heater controller, and a FT-IR macchine)
 																	<ul>
-																		<li>On the production machine, this reduced image analysis to 1/16th of the original time</li>
-																		<li>This was built on Visual Studio 2008, so we didn't have access to the .NET Parallel library</li>
+																		<li>Developed a small client/server network program that allowed basic communication between Cobra and a device that wasn't allowed on the main network</li>
 																	</ul>
 																</li>
-																<li>
-																	Created a custom wrap panel that virtualized the visual portion of the unseen samples
-																	<ul><li>This allowed us to re-size thousands of items without freezing the program</li></ul>
-																</li>
-																<li>
-																	Sped-up file parsing by reducing the frequency of updates between the file parser thread and the UI thread
-																	<ul><li>There was some sort of overflow issue that was causing a significat slow down in the parser once we reached a few thousand samples</li></ul>
-																</li>
-															</ul> 
+															</ul>
 														</li>
-														<li>Created and updated schemas for storing sample data</li>
-														<li>Created new Views for displaying samples and sample data</li>
+														<li>Implemented an "*.ini" file reader/writer used to maintain application state persistence through User-Controller serialization</li>
 													</ul>
 												</div>
-												</div>
 											</div>
+										</div>
+										<!-- End Panel -->
+										<!-- Start Panel -->
+										<div class="panel panel-default">
+											<!-- Heading -->
+											<div class="panel-heading">
+												<h5 class="panel-title"><a data-toggle="collapse" data-parent="accordionPNNL_RA" href="#buzzardPanel">Buzzard Application</a></h5>
+											</div>
+											<!-- Body -->
+											<div id="buzzardPanel" class="panel-collapse collapse">
+											<div class="panel-body">
+												<ul>
+													<li>
+														Ported Buzzard application from Windows Forms Frameowrk over to WPF
+													</li>
+													<li>
+														Buzzard registers incoming scientific data-files and creates trigger files that are used to process said data
+														<ul>
+															<li>On client request, extened application to scan for unregistered files that were no-loger incoming</li>
+														</ul>
+													</li>
+													<li>
+														Re-created UI with WPF controls
+													</li>
+													<li>
+														Created custom splash screen window to manage long-running start-up code
+														<ul>
+															<li>Moved the SQL cache creation startup code over to a background thread in the splash screen</li>
+														</ul>
+													</li>
+												</ul>
+											</div>
+											</div>
+										</div>
+										<!-- End Panel -->
+										<!-- Start Panel -->
+										<div class="panel panel-default">
+											<!-- Heading -->
+											<div class="panel-heading">
+												<h5 class="panel-title"><a data-toggle="collapse" data-parent="accordionPNNL_RA" href="#straightToVideo">Straight to Video</a></h5>
+											</div>
+											<!-- Body -->
+											<div id="straightToVideo" class="panel-collapse collapse">
+											<div class="panel-body">
+												
+												<p>
+												One day, Brian asked me if I could create something that would 
+												create a video recording of a section of a WPF based application; he 
+												also wanted my take on possible ways to freely move items around on 
+												a WPF application. He was working on some kind of particle 
+												simulation with a visual display of the particle movements, and he 
+												wanted to be able to record the simulations.
+												</p>
+
+												<ul>
+													<li>
+														I created a prototype application named "Straight to Video"
+														<ul>
+															<li>It included freely draggable items placed within a canvas</li>
+															<li>Side Note: I named the prototype after the song, "Straight to Video"; I found the music video to be quite memorable</li>
+														</ul>
+													</li>
+													<li>
+														I then built a recorder class that could be dropped onto the control/component we wanted to record
+														<ul><li>This class created images of the component, while using the AForge library to create a video from those images</li></ul>
+													</li>
+												</ul>
+											</div>
+											</div>
+										</div>
+										<!-- End Panel -->
+
+									</div>
+
+								</div>
+								<!-- End Job 01 Content -->
+								<!-- Job 02 Content -->
+								<div role="tabpanel" class="tab-pane" id="job02">
+
+									<div class="panel panel-info" style="margin-bottom:4px;">
+									<div class="text-primary panel-info" style="margin:2px;margin-left:6px;margin-right:6px;">
+										<div class="row">
+											<div class="col-md-2">Group:</div>
+											<div class="col-md-4">Instrument Development Lab</div>
+											<div class="col-md-2"></div>
+											<div class="col-md-4">Sept. 2009 - May 2011</div>
+										</div>
+										<div class="row">
+											<div class="col-md-2">Supervisor:</div>
+											<div class="col-md-4">Daniel Sisk</div>
+											<div class="col-md-2"></div>
+											<div class="col-md-4">Richland, WA</div>
 										</div>
 									</div>
-									<!-- End Job 02 Content -->
-									<!-- Job 03 Content -->
-									<div role="tabpanel" class="tab-pane" id="job03">
+									</div>
 
-										<div class="panel panel-info" style="margin-bottom:4px;">
-										<div class="text-primary panel-info" style="margin:2px;margin-left:6px;margin-right:6px;">
-											<div class="row">
-												<div class="col-md-2">Project:</div>
-												<div class="col-md-4">PNNL UPIC</div>
-												<div class="col-md-2"></div>
-												<div class="col-md-4">Feb. 2009 - Sept. 2009</div>
+									<div>
+										<p>
+										I was brought over to work at PNNL due to my work on Sharc. As a 
+										sub-contractor through WSU, I was limited to only working on Sharc and our 
+										client wanted the possiblility of putting me on additional projects. My 
+										primary focus during this time was still on Sharc, but I also worked on the 
+										occasional outside project.
+										</p>
+									</div>
+
+									<div class="panel-group" id="accordionPNNL_Student">
+										
+										<div class="panel panel-default">
+											<div class="panel-heading">
+												<h5 class="panel-title"><a data-toggle="collapse" data-parent="accordionPNNL_Student" href="#sharcPNNL_student">Sharc</a></h5>
 											</div>
-											<div class="row">
-												<div class="col-md-2">Supervisor:</div>
-												<div class="col-md-4">Bob Lewis</div>
-												<div class="col-md-2"></div>
-												<div class="col-md-4">Richland, WA</div>
+											<div id="sharcPNNL_student" class="panel-collapse collapse">
+											<div class="panel-body">
+												<ul>
+													<li>
+														Created a custom selector-control shaped like the Periodic Table
+														<ul><li>This was used for query creation and heat map displays</li></ul>
+													</li>
+													<li>
+														Spent a large portion of my time finding and eliminating bottlenecks
+														<ul>
+															<li>
+																Altered the image analysis algorithms to run in parallel
+																<ul>
+																	<li>On the production machine, this reduced image analysis to 1/16th of the original time</li>
+																	<li>This was built on Visual Studio 2008, so we didn't have access to the .NET Parallel library</li>
+																</ul>
+															</li>
+															<li>
+																Created a custom wrap panel that virtualized the visual portion of the unseen samples
+																<ul><li>This allowed us to re-size thousands of items without freezing the program</li></ul>
+															</li>
+															<li>
+																Sped-up file parsing by reducing the frequency of updates between the file parser thread and the UI thread
+																<ul><li>There was some sort of overflow issue that was causing a significat slow down in the parser once we reached a few thousand samples</li></ul>
+															</li>
+														</ul> 
+													</li>
+													<li>Created and updated schemas for storing sample data</li>
+													<li>Created new Views for displaying samples and sample data</li>
+												</ul>
 											</div>
-										</div>
-										</div>
-
-										<div>
-											<p>
-											I was working as a sub-contractor for PNNL through WSU-TC. Most of my time 
-											was spend working on an application named Sharc (not a misspelling, that was 
-											the actual name of the program), a piece of software that was being used to 
-											help confirm (or disprove) a correclation between the contents of an aerosol 
-											particle and the image of said particle.
-											</p>
-										</div>
-
-										<div class="panel-group" id="accordionWSU_StudentWorker">
-
-											<div class="panel panel-default">
-												<div class="panel-heading">
-													<h5 class="panel-title"><a data-toggle="collapse" data-parent="accordionWSU_StudentWorker" href="#sharcWSU">Sharc</a></h5>
-												</div>
-
-												<div id="sharcWSU" class="panel-collapse collapse">
-												<div class="panel-body">
-													<ul>
-														<li>User Interface,</li>
-														<li>Integrating sample data from various sources</li>
-														<li>Looking for ways to store integrated and processed data</li>
-														<li>The occasional set of slides used for presentations and project reports</li>
-													</ul>
-												</div>
-												</div>
-
 											</div>
 										</div>
 									</div>
 								</div>
+								<!-- End Job 02 Content -->
+								<!-- Job 03 Content -->
+								<div role="tabpanel" class="tab-pane" id="job03">
+
+									<div class="panel panel-info" style="margin-bottom:4px;">
+									<div class="text-primary panel-info" style="margin:2px;margin-left:6px;margin-right:6px;">
+										<div class="row">
+											<div class="col-md-2">Project:</div>
+											<div class="col-md-4">PNNL UPIC</div>
+											<div class="col-md-2"></div>
+											<div class="col-md-4">Feb. 2009 - Sept. 2009</div>
+										</div>
+										<div class="row">
+											<div class="col-md-2">Supervisor:</div>
+											<div class="col-md-4">Bob Lewis</div>
+											<div class="col-md-2"></div>
+											<div class="col-md-4">Richland, WA</div>
+										</div>
+									</div>
+									</div>
+
+									<div>
+										<p>
+										I was working as a sub-contractor for PNNL through WSU-TC. Most of my time 
+										was spend working on an application named Sharc (not a misspelling, that was 
+										the actual name of the program), a piece of software that was being used to 
+										help confirm (or disprove) a correclation between the contents of an aerosol 
+										particle and the image of said particle.
+										</p>
+									</div>
+
+									<div class="panel-group" id="accordionWSU_StudentWorker">
+
+										<div class="panel panel-default">
+											<div class="panel-heading">
+												<h5 class="panel-title"><a data-toggle="collapse" data-parent="accordionWSU_StudentWorker" href="#sharcWSU">Sharc</a></h5>
+											</div>
+
+											<div id="sharcWSU" class="panel-collapse collapse">
+											<div class="panel-body">
+												<ul>
+													<li>User Interface,</li>
+													<li>Integrating sample data from various sources</li>
+													<li>Looking for ways to store integrated and processed data</li>
+													<li>The occasional set of slides used for presentations and project reports</li>
+												</ul>
+											</div>
+											</div>
+
+										</div>
+									</div>
+								</div>
 							</div>
-							<!-- End Jobs Detials -->
 						</div>
-						</div>
+						<!-- End Jobs Detials -->
 					</div>
+					</div>
+				</div>
 				</div>
 			</div>
 			<!-- End Job History Panel -->
