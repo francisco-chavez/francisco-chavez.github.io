@@ -100,8 +100,52 @@
 						<div class="col-md-8">
 						<div class="tab-content">
 							
-							<div role="tabpanel" class="tab-pane" id="prj_blender"></div>
+							<!-- Blender -->
+							<div role="tabpanel" class="tab-pane" id="prj_blender">
 
+								<!-- Sub-Header -->
+								<div class="panel panel-info" style="margin-bottom: 4px;">
+								<div class="text-primary panel-info" style="margin:2px;margin-left:6px;margin-right:6px;">
+									<div class="row">
+										<div class="col-md-2"></div>
+										<div class="col-md-4">3D Modeling &amp; Animation</div>
+										<div class="col-md-2"></div>
+										<div class="col-md-1">Status:</div>
+										<div class="col-md-3">Beginner</div>
+									</div>
+									<div class="row">
+										<div class="col-md-2">Tools:</div>
+										<div class="col-md-4">Blender</div>
+										<div class="col-md-6"></div>
+									</div>
+								</div>
+								</div>
+								<!-- End Sub-Header -->
+
+								<p>
+									I spent a few months learning 3D modeling and animation with Blender. I created a few models on my 
+									own, and then created a video or two from those models. A few, select models have been uploaded to 
+									<a href="https://sketchfab.com/fct/models">Sketchfab</a>.
+								</p>
+								<p>A few things I can do with Blender:</p>
+								<ul>
+									<li>Create 3D meshes from scratch</li>
+									<li>UV wrap and texture 3D meshes</li>
+									<li>Create materials for the Blender Cycles Shader Engine by using the Node System</li>
+									<li>
+										Apply and use the Rigify Armature System to humanoid models
+										<ul><li>Customize portions of Rigify's armatures</li></ul>
+									</li>
+									<li>Create custom armatures</li>
+									<li>Create custom display shapes for armature bones</li>
+									<li>Use the Action Editor to create simple actions (animations)</li>
+									<li>Use the NLA Editor to combine actions into more complex animations</li>
+									<li>A few of my models can be found on <a href="https://sketchfab.com/fct/models">Sketchfab</a></li>
+								</ul>
+
+							</div>
+
+							<!-- Calc -->
 							<div role="tabpanel" class="tab-pane active" id="prj_calc">
 								
 								<!-- Sub-Header -->
@@ -125,13 +169,14 @@
 
 								<div>
 									<p>
-										This is a simple calculator program writen in C# on the WPF Framework. When I say simple, I mean 
-										that is isn't much better than a five dollar calculator you would give to a little kid.
+										This is a simple calculator program writen in C# on the WPF Framework. When I say simple, I mean that 
+										is isn't much better than a five dollar calculator you would give to a little kid.
 									</p>
 								</div>
 
 							</div>
 
+							<!-- Memory Game -->
 							<div role="tabpanel" class="tab-pane" id="prj_memGame">
 								
 								<!-- Sub-Header -->
@@ -155,15 +200,15 @@
 
 								<div>
 									<p>
-										This is the first full game I've built with Unity 3D that wasn't part of some tutorial. 
-										The game works, and it's playable. I've met a few people that don't assoicate the name
-										Memory to this game, so I'll add a bit of detail.
+										This is the first full game I've built with Unity 3D that wasn't part of some tutorial. The game works, and 
+										it's playable. I've met a few people that don't assoicate the name Memory to this game, so I'll add a bit of 
+										detail.
 									</p>
 									<p>
-										In the game of Memory, a player is given several cards that are face down. During each
-										turn, the player selects two cards to flip face up. If the cards match, they stay face-up.
-										If the cards don't match, the cards get turned face down. In order to win the game, the
-										player must get all cards face-up before they run out of turns.
+										In the game of Memory, a player is given several cards that are face down. During each turn, the player 
+										selects two cards to flip face up. If the cards match, they stay face-up. If the cards don't match, the cards 
+										get turned face down. In order to win the game, the player must get all cards face-up before they run out of 
+										turns.
 									</p>
 									<ul>
 										<li>
@@ -180,6 +225,7 @@
 
 							</div>
 
+							<!-- Algorithms and Data-Structures -->
 							<div role="tabpanel" class="tab-pane" id="prj_dataStructs">
 								<!-- Sub-Header -->
 								<div class="panel panel-info" style="margin-bottom: 4px;">
@@ -199,8 +245,19 @@
 								</div>
 								</div>
 								<!-- End Sub-Header -->
+
+								<p>
+									The Algorithms and Data-Structures project started out when I was brushing up for a job interview. 
+									While working on this, I realized that it might be nice to have easy access to some of these items. 
+									So, I created a <a href="https://github.com/francisco-chavez/Code-Library">GitHub project</a>, and 
+									I've been inserting items that work on general cases. Some of the data-structures I've been reading 
+									up on have implementations that are Use-Case dependent, so I haven't inserted them into the project 
+									(yet). I've also been tying my structures to the interfaces provided by the .NET framework, 
+									increasing compatibility with existing projects.
+								</p>
 							</div>
 
+							<!-- Adaptive Huffman File Reader & Writer -->
 							<div role="tabpanel" class="tab-pane" id="prj_adHuff">
 
 								<!-- Sub-Header -->
@@ -208,7 +265,7 @@
 								<div class="text-primary panel-info" style="margin:2px;margin-left:6px;margin-right:6px;">
 									<div class="row">
 										<div class="col-md-2">Project:</div>
-										<div class="col-md-4">Huffman File Reader/Writer</div>
+										<div class="col-md-4">Adaptive Huffman File Reader &amp; Writer</div>
 										<div class="col-md-2"></div>
 										<div class="col-md-1">Status:</div>
 										<div class="col-md-3">Complete</div>
@@ -224,18 +281,17 @@
 
 								<div>
 									<p>
-									<a href="https://en.wikipedia.org/wiki/Huffman_coding">Huffman encoding</a> achieves file 
-									compression by using shorter binary-codes to represent the more frequent characters in a 
-									text file. To be honest, this little project showed me that you get much better compression 
-									with Zip files. Normal text file formats use fixed-length binary-codes to represent their 
-									characters; Huffman coding uses variable-length binary-codes to do this.
+										<a href="https://en.wikipedia.org/wiki/Huffman_coding">Huffman encoding</a> achieves file compression by 
+										using shorter binary-codes to represent the more frequent characters in a text file. To be honest, this 
+										little project showed me that you get much better compression with Zip files. Normal text file formats use 
+										fixed-length binary-codes to represent their characters; Huffman coding uses variable-length binary-codes 
+										to do this.
 									</p>
 									<p>
-									<a href="https://en.wikipedia.org/wiki/Huffman_coding">Huffman encoding</a> encoding splits 
-									key generation and text encodign into seperate steps. This generates the need to find a way 
-									to get the key to the file recipient. 
-									<a href="https://en.wikipedia.org/wiki/Adaptive_Huffman_coding">Adaptive Huffman coding</a> 
-									encodes the key into the end result as it's being compressed. 
+										<a href="https://en.wikipedia.org/wiki/Huffman_coding">Huffman encoding</a> encoding splits key generation 
+										and text encodign into seperate steps. This generates the need to find a way to get the key to the file 
+										recipient. <a href="https://en.wikipedia.org/wiki/Adaptive_Huffman_coding">Adaptive Huffman coding</a> encodes 
+										the key into the end result as it's being compressed. 
 									</p>
 
 									<ul>
@@ -251,6 +307,7 @@
 
 							</div>
 
+							<!-- Conway's Game of Life -->
 							<div role="tabpanel" class="tab-pane" id="prj_conLife">
 								
 								<!-- Sub-Header -->
@@ -292,6 +349,7 @@
 								</div>
 							</div>
 
+							<!-- Periodic Table Selector -->
 							<div role="tabpanel" class="tab-pane" id="prj_elementSelect">
 								
 								<!-- Sub-Header -->
@@ -315,23 +373,22 @@
 
 								<div>
 									<p>
-										This is a Custom Selector Control built on the WPF Framework. It's in the shape
-										of the Periodic Table of Elements. It's a recreation of one of the components I 
-										built for Sharc. I was able to make a performance improvment or two, simply because 
-										I had a bit more skill with WPF when I built this version. It doesn't have all the 
-										features of the Sharc version because all of those features were developed for Sharc's
-										needs. I also added a feture or two that wasn't in Sharc, but would have been a bit 
-										helpful if they had occured to me back then. By default, selected chemical elements
-										will turn on their glow effects to show that they've been selected. Yet, since 
-										is a selector control, there is also a bindable collection of selected elements
-										that is kept up to date in real time.
+										This is a Custom Selector Control built on the WPF Framework. It's in the shape of the Periodic 
+										Table of Elements. It's a recreation of one of the components I built for Sharc. I was able to 
+										make a performance improvment or two, simply because I had a bit more skill with WPF when I 
+										built this version. It doesn't have all the features of the Sharc version because all of those 
+										features were developed for Sharc's needs. I also added a feture or two that wasn't in Sharc, 
+										but would have been a bit helpful if they had occured to me back then. By default, selected 
+										chemical elements will turn on their glow effects to show that they've been selected. Yet, 
+										since is a selector control, there is also a bindable collection of selected elements that is 
+										kept up to date in real time.
 									</p>
 									<p>
-										I recreated this control for two reasons. The first being that my co-workers had a
-										bit too much fun using this. Really, I walked into a co-worker's office more than one
-										time, just to find him trying to make different shapes by selecting different elements.
-										The other reason is that this might be the one thing I created while working at PNNL
-										that I can re-create without getting into trouble.
+										I recreated this control for two reasons. The first being that my co-workers had a bit too much 
+										fun using this. Really, I walked into a co-worker's office more than one time, just to find him 
+										trying to make different shapes by selecting different elements. The other reason is that this 
+										might be the one thing I created while working at PNNL that I can re-create without getting into 
+										trouble.
 									</p>
 									<ul>
 										<li>
@@ -373,6 +430,7 @@
 								</div>
 							</div>
 
+							<!-- Formula None Game -->
 							<div role="tabpanel" class="tab-pane" id="prj_formNone">
 
 								<!-- Sub-Header -->
@@ -395,18 +453,17 @@
 								<!-- End Sub-Header -->
 
 								<p>
-									I spent over a year building and re-building this racing game. I kept reading that
-									a developer should experience building a game from scratch early on, so I build
-									most of my components from scratch. During this time, I had to study up on things
-									like basic game physics, collision detection, collision resolution, genetic algorithms,
-									neural-networks trained through genetic algorithms, and game-state management. I also
-									built a WPF based race track editor application that was used to: create Obstacle Placement
-									Maps, create AI Way-Point Navigation Maps, and train/breed AI Neural-Network Maps.
+									I spent over a year building and re-building this racing game. I kept reading that a developer should 
+									experience building a game from scratch early on, so I build most of my components from scratch. 
+									During this time, I had to study up on things like basic game physics, collision detection, collision 
+									resolution, genetic algorithms, neural-networks trained through genetic algorithms, and game-state 
+									management. I also built a WPF based race track editor application that was used to: create Obstacle 
+									Placement Maps, create AI Way-Point Navigation Maps, and train/breed AI Neural-Network Maps.
 								</p>
 								<p>
-									I had gotten the game to work to the point where the AI would lap me on tracks I was
-									unaccustomed to driving on. I was in the middle of redoing the AI Training System when
-									I started looking into the Unity 3D Game Engine and stopped working on this project.
+									I had gotten the game to work to the point where the AI would lap me on tracks I was unaccustomed to 
+									driving on. I was in the middle of redoing the AI Training System when I started looking into the 
+									Unity 3D Game Engine and stopped working on this project.
 								</p>
 								<ul>
 									<li>Created my own game asset images with Inkscape</li>
@@ -455,11 +512,10 @@
 								<!-- End Sub-Header -->
 								<div>
 									<p>
-										When it comes to playing a FPS game, I'm not very good when at taking quick aim at 
-										small targes (a.k.a. head-shots). To help with this limitation, I created a small 
-										shooting gallery game. It was a simple, 2D game with a grid where targets would 
-										pop-up. The player would only have a small aiming reticle to show where they were 
-										aiming.
+										When it comes to playing a FPS game, I'm not very good when at taking quick aim at small targes (a.k.a. 
+										head-shots). To help with this limitation, I created a small shooting gallery game. It was a simple, 2D 
+										game with a grid where targets would pop-up. The player would only have a small aiming reticle to show 
+										where they were aiming.
 									</p>
 									<ul>
 										<li>You had till the timer counted down to zero to hit as many targets as possible</li>
@@ -473,9 +529,10 @@
 									</p>
 								</div>
 							</div>
+
 						</div>
 						</div>
-						<!-- End Project Details -->
+						<!-- End Projects Details -->
 					</div>
 					</div>
 
@@ -854,12 +911,11 @@
 
 									<div>
 										<p>
-										The Instrument Development Lab (IDL) is focused on creating instruments for 
-										their clients, most of which are intended for scientific use. During this 
-										time, I worked on various projects, for various clients. A large part of the 
-										work I did was based on WPF/C#, but I also worked with other technologies: 
-										Windows Forms, SQL, ASP.NET, HTML, jQuery, JavaScript, some networking code, 
-										etc. Here's a sampling of some of the work I did:
+											The Instrument Development Lab (IDL) is focused on creating instruments for their clients, most of 
+											which are intended for scientific use. During this time, I worked on various projects, for various 
+											clients. A large part of the work I did was based on WPF/C#, but I also worked with other 
+											technologies: Windows Forms, SQL, ASP.NET, HTML, jQuery, JavaScript, some networking code, etc.. 
+											Here's a sampling of some of the work I did:
 										</p>
 									</div>
 
@@ -963,12 +1019,11 @@
 											<div class="panel-body">
 												
 												<p>
-												One day, Brian asked me if I could create something that would 
-												create a video recording of a section of a WPF based application; he 
-												also wanted my take on possible ways to freely move items around on 
-												a WPF application. He was working on some kind of particle 
-												simulation with a visual display of the particle movements, and he 
-												wanted to be able to record the simulations.
+													One day, Brian asked me if I could create something that would create a video recording 
+													of a section of a WPF based application; he also wanted my take on possible ways to 
+													freely move items around on a WPF application. He was working on some kind of particle
+													simulation with a visual display of the particle movements, and he wanted to be able to 
+													record the simulations.
 												</p>
 
 												<ul>
@@ -1015,11 +1070,10 @@
 
 									<div>
 										<p>
-										I was brought over to work at PNNL due to my work on Sharc. As a 
-										sub-contractor through WSU, I was limited to only working on Sharc and our 
-										client wanted the possiblility of putting me on additional projects. My 
-										primary focus during this time was still on Sharc, but I also worked on the 
-										occasional outside project.
+											I was brought over to work at PNNL due to my work on Sharc. As a sub-contractor through WSU, 
+											I was limited to only working on Sharc and our client wanted the possiblility of putting me 
+											on additional projects. My primary focus during this time was still on Sharc, but I also 
+											worked on the occasional outside project.
 										</p>
 									</div>
 
@@ -1087,11 +1141,10 @@
 
 									<div>
 										<p>
-										I was working as a sub-contractor for PNNL through WSU-TC. Most of my time 
-										was spend working on an application named Sharc (not a misspelling, that was 
-										the actual name of the program), a piece of software that was being used to 
-										help confirm (or disprove) a correclation between the contents of an aerosol 
-										particle and the image of said particle.
+											I was working as a sub-contractor for PNNL through WSU-TC. Most of my time was spend working 
+											on an application named Sharc (not a misspelling, that was the actual name of the program), 
+											a piece of software that was being used to help confirm (or disprove) a correclation between 
+											the contents of an aerosol particle and the image of said particle.
 										</p>
 									</div>
 
