@@ -603,7 +603,7 @@
 
 									<div class="panel panel-default">
 										<div class="panel-heading">
-											<h5 class="panel-title"><a data-toggle="collapse" data-parent="#ed_wsu_accord" href="#collapseCompLanguages">Computer Languages: Class Project</a></h5>
+											<h5 class="panel-title"><a data-toggle="collapse" data-parent="#ed_wsu_accord" href="#collapseCompLanguages">Computer Languages: Semester Project</a></h5>
 										</div>
 										<div id="collapseCompLanguages" class="panel-collapse collapse">
 										<div class="panel-body">
@@ -685,41 +685,84 @@
 
 									<div class="panel panel-default">
 										<div class="panel-heading">
-											<h5 class="panel-title"><a data-toggle="collapse" data-parent="#ed_wsu_accord" href="#collapseSoftDevI">Software Development I:</a></h5>
+											<h5 class="panel-title"><a data-toggle="collapse" data-parent="#ed_wsu_accord" href="#collapseSoftDevI">Software Development I: Semester Project</a></h5>
 										</div>
 										<div id="collapseSoftDevI" class="panel-collapse collapse">
 										<div class="panel-body">
-											<ul>
-												<li>
-													Four Man Group Project: Create a visual development environment for Charon by using the Eclipse's EMF
-												</li>
-												<li>UML</li>
-											</ul>
+
+											<p>Team Size: 4</p>
+											<p>Format: 4v4 Team Competition</p>
+
+											<p>
+												Our team was tasked with expanding the Charon Integrated Development Environment. Charon is language 
+												meant to run special purpose computers running inside of embedded systems. The source code of the 
+												Charon IDE that we were given required the Charon files to be hand-written. Our goal was to replace 
+												the written IDE with a drag and drop canvas area that would transcribe the canvas items into Charon 
+												files.
+											</p>
+
 										</div>
 										</div>
 									</div>
 
 									<div class="panel panel-default">
 										<div class="panel-heading">
-											<h5 class="panel-title"><a data-toggle="collapse" data-parent="#ed_wsu_accord" href="#collapseSoftDevII">Software Development II:</a></h5>
+											<h5 class="panel-title"><a data-toggle="collapse" data-parent="#ed_wsu_accord" href="#collapseSoftDevII">Software Development II: Year Long Project</a></h5>
 										</div>
 										<div id="collapseSoftDevII" class="panel-collapse collapse">
 										<div class="panel-body">
-											
-											<ul>
+
+											<p>Team Size: 3</p>
+												
+											<p>
+												The project was to port the Hy++ interpreter from NetBeans into an Eclipse EMF project. We were to 
+												compile the project into a working IDE that was capable of running on it's own, creating Hy++ 
+												projects, compiling said projects, and running the projects as separate programs.
+											</p>
+
+											<ul>	
 												<li>
-													Three Man Group Project: Port over the Hy++ interpreter from NetBeans to Eclipse's EMF and extend it by adding an IDE
+													I had to create multiple adapter methods that re-created the framework calls we lost access to when 
+													we switched over to EMF
 													<ul>
 														<li>
-															I created translation methods that replaced the calls the interpreter made to it's old framework
-															<ul><li>This required me to figure out what the function making the call wanted done and finding alternative ways to get this done</li></ul>
+															When the time came to plug-in the original code, the rest of the team was amazed by the shear number 
+															of adapters that were needed to keep the original code mostly intact
 														</li>
 														<li>
-															I created a state drawing and coloring library that we were able to call from our IDE to show off Hy++ for our project demonstartion
+															Some of these calls were quite simple due to the fact that EMF was already using a Composite Pattern 
+															while the original code was implementing a Composite Pattern within a dictionary
 														</li>
 														<li>
-															I also did a lot of debugging to the Hy++ compiler that was handed over to us
-															<ul><li>There were an awful lot of odd, coding bugs in something that used a very solid design. I sometimes wonder if someone broke a few features before the project was handed to us.</li></ul>
+															Some of these calls weren't so simple to replace
+														</li>
+													</ul>
+												</li>
+												<li>
+													I created a state drawing and coloring library that we were able to plug into a Hy++ program that was 
+													written in our Hy++ IDE
+													<ul>
+														<li>
+															The Hy++ program would send updates to our coloring library about the active states in the program 
+															and the library would display this on a window that allowed us to track the progress in real time
+														</li>
+														<li>
+															We had to hook the coloring library to the Hy++ program through the Eclipse IDE, since the school 
+															year ran out before we got around to adding this mechanism to the Hy++ IDE
+														</li>
+													</ul>
+												</li>
+												<li>
+													I was also the person that debugged the Hy++ compiler
+													<ul>
+														<li>
+															This was really a Hy++ to Java translator that was then compiled by the Java SDK library
+
+														</li>
+														<li>
+															The overall design of the translator was really sound, but there were an awful lot of usually placed 
+															coding bugs. I suspect that certain features in the source code were deliberately broken to give us 
+															more work to do
 														</li>
 													</ul>
 												</li>
