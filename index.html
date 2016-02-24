@@ -372,39 +372,35 @@
 								<!-- End Sub-Header -->
 
 								<div>
+
 									<p>
-										This is a Custom Selector Control built on the WPF Framework. It's in the shape of the Periodic 
-										Table of Elements. It's a recreation of one of the components I built for Sharc. I was able to 
-										make a performance improvment or two, simply because I had a bit more skill with WPF when I 
-										built this version. It doesn't have all the features of the Sharc version because all of those 
-										features were developed for Sharc's needs. I also added a feture or two that wasn't in Sharc, 
-										but would have been a bit helpful if they had occured to me back then. By default, selected 
-										chemical elements will turn on their glow effects to show that they've been selected. Yet, 
-										since is a selector control, there is also a bindable collection of selected elements that is 
-										kept up to date in real time.
+										This is a Custom Selector Control built on the WPF Framework; that's in the shape of the Periodic 
+										Table of Elements. I  also included an example program showing various ways to interact with this 
+										control. 
 									</p>
 									<p>
-										I recreated this control for two reasons. The first being that my co-workers had a bit too much 
-										fun using this. Really, I walked into a co-worker's office more than one time, just to find him 
-										trying to make different shapes by selecting different elements. The other reason is that this 
-										might be the one thing I created while working at PNNL that I can re-create without getting into 
-										trouble.
+										By default, any chemical elements will turn on their glow effects when selected. As a selector 
+										control, there is also a bindable collection of selected elements that is kept up to date in real 
+										time.
+									</p>
+									<p>
+										One of the reasons for recreating this control is because my co-workers had a bit too much fun using 
+										it. I walked into a co-worker's office more than one time, just to find him trying to make different 
+										shapes by selecting different elements.
 									</p>
 									<ul>
 										<li>
-											Multiple forms of selection and deselection for chemical elements
+											Multiple ways to select and deselect chemical elements
 											<ul>
 												<li>Chemical elements can be selected by clicking on them through the GUI</li>
-												<li>Chemical elements can be selected by setting their IsChecked property in code</li>
-												<li>Chemical elements can be selected by directly inserting them into the PeriodicTable's SelectedElements property</li>
-												<li>Chemical elements can have their selection state changed from within any Chemical Group contain said elements</li>
+												<li>Chemical elements can be selected in code in multiple ways</li>
 											</ul>
 										</li>
-										<li>Chemical elements are designed to have their foreground, background, and glow-effect colors changed by assigning a different Brush object to those propeties</li>
+										<li>Chemical elements are designed to have their foreground, background, and glow-effect colors changed by assigning a Brush object to those properties</li>
 										<li>
 											Chemical elements can be placed in Chemical Groups, allowing changes to be made to multiple elements at once
 											<ul>
-												<li>The Starndard Table Factory already has a few default Chemical Groups that are fairly standard in most Periodic Tables</li>
+												<li>The Standard Table Factory already has a few default Chemical Groups that are fairly standard in most Periodic Tables</li>
 												<li>Elements can belong to multiple Chemical Groups</li>
 												<li>
 													Chemical Groups are able to do the following actions to all elements within the group:
